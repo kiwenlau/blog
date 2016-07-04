@@ -2,7 +2,15 @@
 <div class="widget tagcloud">
   <h3 class="title">标签</h3>
   <div class="entry">
-    <%- tagcloud(site.tags, {}) %>
+    <%- tagcloud(site.tags, {
+        min_font: 10,
+        max_font: 25,
+        amount: 20,
+        orderby: 1,
+        color: true,
+        start_color: 'lime',
+        end_color: 'red' } ) 
+    %>
   </div>
 </div>
 <% } %>
