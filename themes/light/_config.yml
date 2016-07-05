@@ -5,7 +5,6 @@ menu:
 
 # 侧边栏
 widgets:
-- toc
 - search
 - photo
 - link
