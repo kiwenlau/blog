@@ -5,12 +5,15 @@ menu:
 
 # 侧边栏
 widgets:
+- toc
 - search
 - photo
 - link
 - tagcloud
 - recent_posts
 
+
 excerpt_link: 阅读全文...
 
 fancybox: true
+
