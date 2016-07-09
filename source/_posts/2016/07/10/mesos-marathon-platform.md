@@ -17,7 +17,17 @@ tags: [Docker, Mesos, Marathon]
 
 <img src="mesos-marathon-platform/mesos-marathon-platform.png" width = "500"/>
 
-## 一. Mesos/Marathon简介
+## 一. Mesos/Marathon平台简介
+
+#### **1. Mesos**
+
+[Mesos](http://mesos.apache.org/)是**分布式集群资源管理系统**，负责调度集群内的CPU，内存以及磁盘等资源。Hadoop, Spark以及Storm等**分布式计算框架**非常流行，但是为每一个计算框架搭建单独的集群非常地浪费资源，也无法实现数据共享，而Mesos的设计初衷就是让不同的**分布式计算框架**能够共享一个集群。
+
+Mesos资源调度算法分为两个层次: Mesos监控集群的空余资源，并将空余资源按照一定规则分配给各个计算框架；而各个计算框架会根据需要选择接受或者拒绝所分配的资源。这时，Mesos与各个计算框架都参与了资源的调度: Mesos负责分配资源; 而计算框架接受或者拒绝资源。因此，Mesos的责任非常简单清晰: 监控并分配集群资源。
+
+Mesos的资源调度算法与传统的集中式资源调度算法非常不同: **计算框架**向**资源管理系统**申请资源，并且提供各种限制条件，然后**资源管理系统**所掌握的集群全局状态进行资源调度。理论上集中式资源调度算法能够达到最优化，但是这时**资源管理系统**需要承担全部的调度责任，无法实现高扩展性与高灵活性。
+
+#### **2. Marathon**
 
 ## 二. 搭建步骤
 
@@ -108,3 +118,8 @@ sudo ./run-nginx.sh
 ```
 
 访问Nginx: [http://192.168.59.1:10000/](http://192.168.59.1:10000/)
+
+
+## 三. 参考
+
+1. [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](http://mesos.berkeley.edu/mesos_tech_report.pdf)
