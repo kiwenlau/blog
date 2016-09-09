@@ -6,9 +6,10 @@ tags: [MongoDB]
 
 ---
 
-**摘要:** 为MongoDB中的数据构建倒排索引(Inverted Index)，然后缓存到内存中，可以大幅提升搜索性能。本文将介绍两种构建倒排索引的方法：MapReduce与Aggregation。
+**摘要:** 为MongoDB中的数据构建倒排索引(Inverted Index)，然后缓存到内存中，可以大幅提升搜索性能。本文将介绍两种构建倒排索引的方法：[MapReduce](https://docs.mongodb.com/manual/core/map-reduce/)和[Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)。
 
 **GitHub地址:**
+
 - [kiwenlau/mongodb-inverted-index](https://github.com/kiwenlau/mongodb-inverted-index)
 
 <!-- more -->
@@ -69,7 +70,7 @@ tags: [MongoDB]
 - _id: 文档ID，由MongoDB自动生成。
 - __v: 文档版本，由MongoDB的NodeJS接口Mongoose自动生成。
 - movie: 电影名称。
-- starList: 电影的演员列表。 
+- starList: 演员列表。 
 
 可知，这个文档表示电影[《傲慢与偏见》](https://movie.douban.com/subject/1418200/)，由女神[凯拉·奈特莉](https://movie.douban.com/celebrity/1054448/)主演。
 
@@ -90,13 +91,133 @@ tags: [MongoDB]
 }
 ```
 
-其中Key为电影名称(movie)，而Value为
+其中Key为电影名称(movie)，而Value为演员列表(starList)。
 
+这时查询Keira Knightley所主演的电影的NodeJS[代码](https://github.com/kiwenlau/mongodb-inverted-index/blob/master/search.js)如下:
+
+```
+Movie.find(
+{
+    starList: "Keira Knightley"
+},
+{
+    _id: 0,
+    movie: 1
+}, function(err, results)
+{
+    if (err)
+    {
+        console.log(err);
+        process.exit(1);
+    }
+    console.log("search movie success:\n");
+    console.log(JSON.stringify(results, null, 4));
+    process.exit(0);
+});
+```
+
+- 注：本文所有代码使用了MongoDB的NodeJS接口[Mongoose](http://mongoosejs.com/)，它与MongoDB Shell的接口基本一致。
+
+代码并不复杂，但是数据量大时查询性能会很差，因为需要:
+
+- 遍历整个movie集合的所有文档
+- 遍历每个文档的startList数组
+
+因此构建倒排索引可以有效地提升搜索性能。本文将介绍MongoDB中两种构建倒排索引的方法：[MapReduce](https://docs.mongodb.com/manual/core/map-reduce/)和[Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)。
 
 
 ## 三 MapReduce
 
-## 四. Aggregation
+[MapReduce](http://research.google.com/archive/mapreduce.html)是由谷歌提出的编程模型，适用于多种大数据处理场景，在搜索引擎中，MapReduce可以用于构建网页数据的倒排索引，也可以用于编写网页排序算法PageRank(由谷歌创始人佩奇和布林提出)。
+
+MapReduce的输入数据与输出数据均为键值对集合。MapReduce分为两个阶段: Map与Reduce。
+
+- Map函数将输入键值`<k1, v1>`对进行变换，输出中间键值对`<k2, v2>`。
+- MapReduce框架会自动对中间键值对`<k2, v2>`进行分组，Key相同的键值对会被合并为一个键值对`<k2, list(v2)>`。
+- Reduce函数对`<k2, list(v2)>`的Value进行合并，生成结果键值对`<k3, v3>`。
+
+使用MapReduce构建倒排索引的NodeJS[代码](https://github.com/kiwenlau/mongodb-inverted-index/blob/master/mapreduce.js)如下:
+
+```
+var o = {};
+
+o.map = function()
+{
+    var movie = this.movie;
+    this.starList.forEach(function(star)
+    {
+        emit(star,
+        {
+            movieList: [movie]
+        });
+    });
+};
+
+o.reduce = function(k, vals)
+{
+    var movieList = [];
+    vals.forEach(function(val)
+    {
+        movieList.push(val.movieList[0]);
+    });
+    return {
+        movieList: movieList
+    };
+};
+
+Movie.mapReduce(o, function(err, results)
+{
+    if (err)
+    {
+        console.log(err);
+        process.exit(1);
+    }
+    console.log("create inverted index success:\n");
+    console.log(JSON.stringify(results, null, 4));
+    process.exit(0);
+});
+```
+
+## 四. Aggregation Pipeline
+
+[Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)，中文称作聚合管道，用于汇总MongoDB中多个文档中的数据，也可以用于构建倒排索引。
+
+使用Aggregation Pipeline构建倒排索引的NodeJS[代码](https://github.com/kiwenlau/mongodb-inverted-index/blob/master/aggregation Pipeline.js)如下:
+
+```
+Movie.aggregate([
+{
+    "$unwind": "$starList"
+},
+{
+    "$group":
+    {
+        "_id": "$starList",
+        "movieList":
+        {
+            "$push": "$movie"
+        }
+    }
+},
+{
+    "$project":
+    {
+        "_id": 0,
+        "star": "$_id",
+        "movieList": 1
+    }
+}], function(err, results)
+{
+    if (err)
+    {
+        console.log(err);
+        process.exit(1);
+    }
+    console.log("create inverted index success:\n");
+    console.log(JSON.stringify(results, null, 4));
+    process.exit(0);
+});
+```
 
 ## 五. 参考
 
