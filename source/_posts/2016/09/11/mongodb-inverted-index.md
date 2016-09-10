@@ -21,9 +21,9 @@ tags: [MongoDB]
 
 ## 一. 倒排索引
 
-倒排索引(Inverted Index)，也称为方向索引，[维基百科](https://zh.wikipedia.org/wiki/%E5%80%92%E6%8E%92%E7%B4%A2%E5%BC%95)的定义是这样的:
+倒排索引(Inverted Index)，也称为反向索引，[维基百科](https://zh.wikipedia.org/wiki/%E5%80%92%E6%8E%92%E7%B4%A2%E5%BC%95)的定义是这样的:
 
-> 是一种索引方法，被用来存储在全文搜索下某个单词在一个文档或者一组文档中的存储位置的映射。它是文档检索系统中最常用的数据结构。
+> 是一种索引方法，被用来存储在全文搜索下某个单词在一个文档或者一组文档中的存储位置的映射。
 
 这个定义比较学术，也就是比较反人类，忽略...
 
@@ -130,18 +130,18 @@ Movie.find(
 
 [MapReduce](http://research.google.com/archive/mapreduce.html)是由谷歌提出的编程模型，适用于多种大数据处理场景，在搜索引擎中，MapReduce可以用于构建网页数据的倒排索引，也可以用于编写网页排序算法PageRank(由谷歌创始人佩奇和布林提出)。
 
-MapReduce的输入数据与输出数据均为键值对集合。MapReduce分为两个阶段: Map与Reduce。
+MapReduce的输入数据与输出数据均为键值对集合。MapReduce分为两个函数: Map与Reduce。
 
 - Map函数将输入键值`<k1, v1>`对进行变换，输出中间键值对`<k2, v2>`。
 - MapReduce框架会自动对中间键值对`<k2, v2>`进行分组，Key相同的键值对会被合并为一个键值对`<k2, list(v2)>`。
-- Reduce函数对`<k2, list(v2)>`的Value进行合并，生成结果键值对`<k3, v3>`。
+- Reduce函数对`<k2, list(v2)>`的Value进行合并，生成结果键值对`<k2, v3>`。
 
 使用MapReduce构建倒排索引的NodeJS[代码](https://github.com/kiwenlau/mongodb-inverted-index/blob/master/mapreduce.js)如下:
 
 ```
-var o = {};
+var option = {};
 
-o.map = function()
+option.map = function()
 {
     var movie = this.movie;
     this.starList.forEach(function(star)
@@ -153,19 +153,19 @@ o.map = function()
     });
 };
 
-o.reduce = function(k, vals)
+option.reduce = function(key, values)
 {
     var movieList = [];
-    vals.forEach(function(val)
+    values.forEach(function(value)
     {
-        movieList.push(val.movieList[0]);
+        movieList.push(value.movieList[0]);
     });
     return {
         movieList: movieList
     };
 };
 
-Movie.mapReduce(o, function(err, results)
+Movie.mapReduce(option, function(err, results)
 {
     if (err)
     {
@@ -178,9 +178,60 @@ Movie.mapReduce(o, function(err, results)
 });
 ```
 
+代码解释:
+
+- Map函数的输入数据是Movie集合中的各个文档，在代码中用this表示。文档的movie与starList属性构成键值对`<movie, starList>`。Map函数遍历starList，对每个start生成键值对`<star, movieList>`。这时Key与Value进行了对调，且starList被拆分了，此时movieList仅包含单个movie。
+- MongoDB的MapReduce执行框架对成键值对`<star, movieList>`进行分组，star相同的键值对会被合并为一个键值对`<star, list(movieList)>`。这一步是自动进行的，因此在代码中并没有体现。
+- Reduce函数的输入数据是键值对`<star, list(movieList)>`，在代码中，star即为key，而list(movieList)即为values，两者为Reduce函数的参数。Reduce函数合并list(movieList)，从而得到键值对`<star, movieList>`，最终，movieList中将包含该star的所有movie。
+
+在代码中，Map函数与Reduce返回的键值对中的Value是一个对象`{ movieList: movieList }`而不是数组`movieList`，因此代码和结果都显得比较奇怪。MongoDB的MapReduce框架不支持Reduce函数返回数组，因此只能将movieList放在对象里面返回。
+
+输出结果:
+
+```
+[
+    {
+        "_id": "Benedict Cumberbatch",
+        "value": {
+            "movieList": [
+                "The Imitation Game"
+            ]
+        }
+    },
+    {
+        "_id": "Keira Knightley",
+        "value": {
+            "movieList": [
+                "Pride & Prejudice",
+                "Begin Again",
+                "The Imitation Game"
+            ]
+        }
+    },
+    {
+        "_id": "Mark Ruffalo",
+        "value": {
+            "movieList": [
+                "Begin Again"
+            ]
+        }
+    },
+    {
+        "_id": "Matthew Macfadyen",
+        "value": {
+            "movieList": [
+                "Pride & Prejudice"
+            ]
+        }
+    }
+]
+```
+
 ## 四. Aggregation Pipeline
 
 [Aggregation Pipeline](https://docs.mongodb.com/manual/core/aggregation-pipeline/)，中文称作聚合管道，用于汇总MongoDB中多个文档中的数据，也可以用于构建倒排索引。
+
+Aggregation Pipeline有两个特点，可以进行各种[聚合操作](https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/)，并且可以将多个聚合操作组合使用，类似于Linux中的管道操作，前一个操作的输出是下一个操作的输入。
 
 使用Aggregation Pipeline构建倒排索引的NodeJS[代码](https://github.com/kiwenlau/mongodb-inverted-index/blob/master/aggregation Pipeline.js)如下:
 
@@ -219,6 +270,68 @@ Movie.aggregate([
 });
 ```
 
-## 五. 参考
+代码解释:
 
+- $unwind: 将starList拆分，输出结果(忽略_id与__v)为:
 
+```
+[
+    {
+        "movie": "Pride & Prejudice",
+        "starList": "Keira Knightley"
+    },
+    {
+        "movie": "Pride & Prejudice",
+        "starList": "Matthew Macfadyen"
+    },
+    {
+        "movie": "Begin Again",
+        "starList": "Keira Knightley"
+    },
+    {
+        "movie": "Begin Again",
+        "starList": "Mark Ruffalo"
+    },
+    {
+        "movie": "The Imitation Game",
+        "starList": "Keira Knightley"
+    },
+    {
+        "movie": "The Imitation Game",
+        "starList": "Benedict Cumberbatch"
+    }
+]
+```
+
+- $group: 根据文档的starList属性进行分组，然后将分组文档的movie属性合并为movieList，输出结果(忽略_id与__v)为:
+
+```
+[
+    {
+        "_id": "Benedict Cumberbatch",
+        "movieList": [
+            "The Imitation Game"
+        ]
+    },
+    {
+        "_id": "Matthew Macfadyen",
+        "movieList": [
+            "Pride & Prejudice"
+        ]
+    },
+    {
+        "_id": "Mark Ruffalo",
+        "movieList": [
+            "Begin Again"
+        ]
+    },
+    {
+        "_id": "Keira Knightley",
+        "movieList": [
+            "Pride & Prejudice",
+            "Begin Again",
+            "The Imitation Game"
+        ]
+    }
+]
+```
