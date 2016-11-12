@@ -57,6 +57,9 @@
 <!--网站头像-->
 <link href="<%- config.root %>kiwenlau.ico" rel="icon">
 
+<!--Fundebug-->
+<script type="text/javascript" src="https://og6593g2z.qnssl.com/fundebug.0.1.0.min.js" apikey="530b30ad0965c436052673bb91b53fb188a56d316141bf549e192888fd3f5d69"></script>
+
 <!--百度统计-->
 <script>
 var _hmt = _hmt || [];
@@ -73,5 +76,37 @@ var _hmt = _hmt || [];
 
 <!--谷歌: 验证网站所有权-->
 <meta name="google-site-verification" content="93kJToORTppgNykiQMWMYtgL0KSRb77_64DDP1OiaBY" />
+
+<!-- 七牛jquery -->
+<script src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- 莲子数据 -->
+<script type="text/javascript">
+var _laq = _laq || [];
+_laq.push(['_setApp', 'Y0QqZ7g5Lt8pdqPesfx5']); /* LOTUSEED_APPEY 必填 */
+
+//_laq.push(['_setChannel', 'LOTUSEED_CHANNEL']);/* 设置渠道时 可选 */
+//_laq.push(['_setVersion', 'LOTUSEED_VERSION']);/* 设置版本时 可选 */
+//_laq.push(['_setTitle', '自定义title']); /* 页面标题，必要时可以初始化设置 可选 */
+_laq.push(['_trackClick', true]); /*设置追踪页面点击事件（如果没有此项，该功能不开启） */
+_laq.push(['_trackError', true]); /* 设置追踪页面js异常（如果没有此项，该功能不开启） */
+
+//_laq.push(['_trackPageClose', true]); /* 追踪页面关闭（如果没有此项，该功能不开启 可选 */
+
+/*
+_laq.push(['_onEvent', { // 初始化触发事件设置 可选 
+    eveId: 1, // 事件ID 必填 
+    label:'demo页面初始化' // 事件标签名 可选
+}]);
+*/
+(function() {
+    var la = document.createElement('script');
+    la.type = 'text/javascript';
+    la.async = true;
+    la.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'js.lotuseed.com/lsd.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(la, s);
+})();
+</script>
 
 </head>
