@@ -2,6 +2,7 @@ menu:
   主页: /
   博客列表: /archives
   订阅: /atom.xml
+  Fundebug: https://fundebug.com
 
 # 侧边栏
 widgets:
