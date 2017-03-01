@@ -111,8 +111,13 @@ var _hmt = _hmt || [];
 <!--谷歌: 验证网站所有权-->
 <meta name="google-site-verification" content="93kJToORTppgNykiQMWMYtgL0KSRb77_64DDP1OiaBY" />
 
-<!-- 七牛jquery -->
+<!-- 七牛jQuery -->
 <script src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- 七牛jQuery请求失败时，则请求本网站挂载的jQuery -->
+<script>
+window.jQuery || document.write("<script src=/js/jquery.min.js><\/script>")
+</script>
 
 
 </head>

@@ -23,6 +23,6 @@
 
     // Scroll to top animation on click
     $(scrollElem).click(function(){
-        $('html, body').animate({scrollTop:0},     scrollSpee); return false;
+        $('html, body').animate({scrollTop:0},     scrollSpeed); return false;
     });
 })(jQuery);
