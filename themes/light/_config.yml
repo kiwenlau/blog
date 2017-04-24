@@ -1,8 +1,7 @@
 menu:
   主页: /
   博客列表: /archives
-  订阅: /atom.xml
-  Fundebug: https://fundebug.com
+  RSS订阅: /atom.xml
 
 # 侧边栏
 widgets:
