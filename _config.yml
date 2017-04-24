@@ -1,8 +1,5 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Hexo配置文件
 
-# Site
 title: KiwenLau
 subtitle: 天下惟庸人无谤无誉
 description:
@@ -10,14 +7,12 @@ author: KiwenLau
 language: zh-CN
 timezone:
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://kiwenlau.com
 root: /
 permalink: :title/
 permalink_defaults:
 
-# Directory
+# 目录
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -27,10 +22,9 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: false
 
 # 在新标签页中打开外部链接
 external_link: true
@@ -46,30 +40,21 @@ highlight:
   auto_detect: true
   tab_replace:
 
-# Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+# 时间格式
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# Pagination
-## Set per_page to 0 to disable pagination
+# 分页
 per_page: 15
 pagination_dir: page
 
 
-
-
-# 使用light主题: 
-# https://github.com/hexojs/hexo-theme-light
+# 使用light主题: https://github.com/hexojs/hexo-theme-light
 theme: light
-
 
 
 # RSS订阅
