@@ -10,6 +10,7 @@ widgets:
 - link
 - tagcloud
 - recent_posts
+- popular_posts 
 - donate
 
 
