@@ -56,44 +56,23 @@
   <% } %>
 
 <!--网站头像-->
-<link href="<%- config.root %>/img/kiwenlau.ico" rel="icon">
+<link href="/img/kiwenlau.ico" rel="icon">
 
 <!-- 莲子数据 -->
 <script type="text/javascript">
 var _laq = _laq || [];
 _laq.push(['_setApp', 'Y0QqZ7g5Lt8pdqPesfx5']); /* LOTUSEED_APPEY 必填 */
-
-//_laq.push(['_setChannel', 'LOTUSEED_CHANNEL']);/* 设置渠道时 可选 */
-//_laq.push(['_setVersion', 'LOTUSEED_VERSION']);/* 设置版本时 可选 */
-//_laq.push(['_setTitle', '自定义title']); /* 页面标题，必要时可以初始化设置 可选 */
 _laq.push(['_trackClick', true]); /*设置追踪页面点击事件（如果没有此项，该功能不开启） */
 _laq.push(['_trackError', true]); /* 设置追踪页面js异常（如果没有此项，该功能不开启） */
-
-//_laq.push(['_trackPageClose', true]); /* 追踪页面关闭（如果没有此项，该功能不开启 可选 */
-
-/*
-_laq.push(['_onEvent', { // 初始化触发事件设置 可选 
-    eveId: 1, // 事件ID 必填 
-    label:'demo页面初始化' // 事件标签名 可选
-}]);
-*/
-// (function() {
-//     var la = document.createElement('script');
-//     la.type = 'text/javascript';
-//     la.async = false;
-//     la.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'js.lotuseed.com/lsd.js';
-//     var s = document.getElementsByTagName('script')[0];
-//     s.parentNode.insertBefore(la, s);
-// })();
 </script>
-<script type="text/javascript" src="http://js.lotuseed.com/lsd.js"></script>
+<script type="text/javascript" src="https://js.lotuseed.com/lsd.js"></script>
 
 <!--百度统计-->
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?1bae16337d1f07bbba3e478b5b11bcda";
+  hm.src = "https://hm.baidu.com/hm.js?1bae16337d1f07bbba3e478b5b11bcda";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();

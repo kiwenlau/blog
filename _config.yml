@@ -7,7 +7,7 @@ author: KiwenLau
 language: zh-CN
 timezone:
 
-url: http://kiwenlau.com
+url: https://kiwenlau.com
 root: /
 permalink: :title/
 permalink_defaults:
