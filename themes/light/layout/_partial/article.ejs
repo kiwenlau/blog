@@ -1,12 +1,16 @@
-
 <article class="<%= item.layout %>">
+
   <% if (item.photos && item.photos.length){ %>
     <%- partial('post/gallery') %>
   <% } %>
+
   <div class="post-content">
-    <header>
+
+    <!-- 关于页面没有标题 -->
+    <% if (page.title !== "关于"){ %>
+     <header>
      <div style="display: flex;">
-             <% if (item.layout != 'page'){ %>
+      <% if (item.layout !== 'page'){ %>
         <div class="icon"></div>
         <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>  
       <% } %>
@@ -14,19 +18,25 @@
       <span id="busuanzi_container_page_pv" style="margin-bottom: 5px; line-height: 1; font-size: 0.9em;" >&#160;&#160;&#160;&#160;&#160;阅读  <span id="busuanzi_value_page_pv"></span></span>
       <% } %>
      </div>
-
-
       <%- partial('post/title') %>
     </header>
+    <% } %>
+
+ 
+
     <div class="entry">
       <% if (item.excerpt && index){ %>
         <%- item.excerpt %>
+      <% } else if (page.title === "关于") { %>
+        <!-- 关于页面没有版权申明 -->
+        <%- item.content %>
       <% } else { %>
         <%- item.content %>
         <!--版权声明-->
         <%- partial('copyright') %>
       <% } %>
     </div>
+
     <footer>
       <% if (index){ %>
         <% if (item.excerpt){ %>
@@ -45,21 +55,20 @@
       <% } %>
       <div class="clearfix"></div>
     </footer>
+
   </div>
 
 </article>
 
-<%- partial('gitment') %>
 
-
-
-
+<!-- 使用Gitmemt作为评论系统 -->
+<% if (!index && page.title !== "关于"){ %>
+  <%- partial('gitment') %>
+<% } %>
 
 
 <!--百度自动推送代码-->
 <% if (!index){ %>
-
-
 <script>
 (function(){
     var bp = document.createElement('script');
@@ -74,7 +83,5 @@
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-
 <% } %>
-
 

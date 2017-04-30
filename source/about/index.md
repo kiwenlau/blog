@@ -1,6 +1,10 @@
-## 基于Hexo搭建的个人技术博客
+title: 关于
+date: 2017-04-27 21:26:08
+---
 
-[KiwenLau](http://kiwenlau.com/)是我基于[Hexo](https://hexo.io/docs/)搭建的个人技术博客，部署在[Coding](https://coding.net)上。
+## 关于本站
+
+本站是基于[Hexo](https://hexo.io/docs/)搭建的个人技术博客，源代码托管在[GitHub](https://github.com)，静态文件部署在[Coding](https://coding.net)上。
 
 博客使用了[Light](https://github.com/hexojs/hexo-theme-light)作为主题，但是进行了大量个性化定制:
 

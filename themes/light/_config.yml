@@ -2,6 +2,7 @@ menu:
   主页: /
   博客列表: /archives
   RSS订阅: /atom.xml
+  关于: /about
 
 # 侧边栏
 widgets:
