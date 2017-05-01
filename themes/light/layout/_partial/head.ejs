@@ -29,7 +29,7 @@
       <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
   <% } %>
 
-  <meta name="description" content="<%= strip_html(page.excerpt) %>" >
+  <meta name="description" content="<%= strip_html(page.excerpt).replace(/^s*/, '').replace(/s*$/, '') %>" >
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

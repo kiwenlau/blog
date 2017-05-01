@@ -28,57 +28,54 @@ date: 2017-04-27 21:26:08
             <tr align="center">
                 <td>
                     <a href="https://movie.douban.com/subject/3205624/" title="社交网络" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/01.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/01.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/26683290/" title="你的名字" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/02.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/02.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/1294639/" title="勇敢的心" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/03.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/03.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/5153254/" title="爱你，罗茜" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/04.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/04.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
             </tr>
             <tr align="center">
                 <td>
                     <a href="https://movie.douban.com/subject/6874403/" title="Begin Again" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/05.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/05.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/21937445/" title="辩护人" target="_blank">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/06.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/06.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/6872936/" title="军火贩" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/07.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/07.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
                 <td>
                     <a href="https://movie.douban.com/subject/1293350/" title="两杆大烟枪" target="_blank ">
-                        <img src="http://op9rwofuk.bkt.clouddn.com/08.png" width=100px height=150px>
+                        <img src="http://op9rwofuk.bkt.clouddn.com/08.png" width=133px height=200px style="margin: 10px 10px">
                     </a>
                 </td>
             </tr>
         </tbody>
+        </table>
 </div>
 
 {% endraw %}
 
-</table>
 
-## 推荐书籍
-
-<script type="text/javascript" src="http://www.douban.com/service/badge/78326833/?selection=favorite&amp;picsize=medium&amp;hideself=on&amp;show=collection&amp;n=8&amp;hidelogo=on&amp;cat=book&amp;columns=4"></script>
 
 ## 鼓励一下
 
