@@ -6,7 +6,8 @@
 
 - 使用[Fundebug](https://fundebug.com/)监控JavaScript脚本错误。
 - 使用[Gitment](https://github.com/imsun/gitment)实现博客评论。
-- 使用[不蒜子](http://service.ibruce.info/)统计博客访问量。
+- 使用[不蒜子](http://busuanzi.ibruce.info)统计博客访问量。
 - 使用[LeanCloud](https://leancloud.cn)统计热门博客。
 - 使用[Google AdSense](http://www.google.cn/adsense)实现广告。
+- 使用[七牛](https://www.qiniu.com)存储了部分图片。
 - 使用[百度统计](http://tongji.baidu.com/)和[莲子数据](http://www.lotuseed.com/)统计后台数据。
