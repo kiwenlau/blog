@@ -130,6 +130,60 @@ date: 2017-04-27 21:26:08
     </div>
 {% endraw %}
 
+## 推荐书籍
+
+{% raw %}
+    <div>
+        <table cellspacing="0" cellpadding="4">
+            <tbody>
+                <tr align="center">
+                    <td>
+                        <a href="https://book.douban.com/subject/6709783/" title="浪潮之巅" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book01.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/1421029/" title="帝国的惆怅" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book02.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/5921785/" title="乱世华尔街" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book03.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/4104794/" title="有一类战犯叫参谋" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book04.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <a href="https://book.douban.com/subject/3869949/" title="经济学通识" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book05.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/25726145/" title="一路走来一路读" target="_blank">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book06.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/3845101/" title="24堂财富课" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book07.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://book.douban.com/subject/26700104/" title="穿越百年中东" target="_blank ">
+                            <img src="http://op9rwofuk.bkt.clouddn.com/book08.jpg" width=133px height=200px style="margin: 10px 10px">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+    </div>
+{% endraw %}
+
 ## 鼓励一下
 
 如果你觉得我的博客还不错，可以给我的博客仓库[kiwenlau/blog](https://github.com/kiwenlau/blog)一个Star，或者将我的博客分享给你的朋友，也可以用支付宝或者微信给我打赏。
