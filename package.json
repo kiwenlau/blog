@@ -19,6 +19,7 @@
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-marked": "^0.2.5",
     "hexo-renderer-stylus": "^0.2.3",
-    "hexo-server": "^0.1.3"
+    "hexo-server": "^0.1.3",
+    "hexo-wordcount": "^2.0.1"
   }
 }

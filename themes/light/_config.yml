@@ -7,8 +7,8 @@ menu:
 # 侧边栏
 widgets:
 - search
-- photo
-- link
+- introduction
+- blog
 - tagcloud
 - recent_posts
 - popular_posts 
