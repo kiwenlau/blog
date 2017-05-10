@@ -41,11 +41,17 @@ $(function()
 {
     // 获取博客的标题和链接
     var title = $('header').children("h1.title").text().trim();
-    var url =  $(location).attr("href").trim();
+
+    // 链接需要去除querystring，即问号之后的内容
+    // 去除#号之后的内容
+    // 将http改为https
+    var url =  $(location).attr("href").trim().split("?")[0].split("#")[0].replace(/^http:/, 'https:');
 
     // 只有博客页面有css样式copyright
     // 本地访问时，不记录访问量
     if ($('.copyright').length === 1 && url.indexOf("4000") === -1) addCount(title, url);
+
+    // if ($('.copyright').length === 1) addCount(title, url);
 
     var query = new AV.Query(Counter);
     query.descending("pv");
