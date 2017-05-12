@@ -275,7 +275,7 @@ Hello Fundebug!
 作为Node.js开发者，真正理解Docker可能需要一些时间，但是它可以给你带来很多便利。欢迎加入[我们Fundebug](https://fundebug.com/)的**Node.js技术交流群**，老司机带你玩转酷炫的Docker技术。
 
 <div style="text-align: center;">
-<img style="width:20%;" src="nodejs-docker/nodejs-qq-group.jpeg" />
+<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
 </div>
 
 

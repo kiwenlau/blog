@@ -133,7 +133,7 @@ docker run -p 8080:80 -d nginx
 欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
 
 <div style="text-align: center;">
-<img style="width:20%;" src="about-docker-sock/docker.JPG" />
+<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
 </div>
 
 

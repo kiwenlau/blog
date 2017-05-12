@@ -16,9 +16,9 @@ function addCount(title, url)
                 var counter = results[0];
                 counter.increment("pv");
                 counter.save(null,
-                    {
-                        fetchWhenSave: true
-                    });
+                {
+                    fetchWhenSave: true
+                });
             }
             else
             {
@@ -29,9 +29,9 @@ function addCount(title, url)
                 newcounter.set("pv", 1);
 
                 newcounter.save(null,
-                    {
-                        fetchWhenSave: true
-                    });
+                {
+                    fetchWhenSave: true
+                });
             }
         }
     });
@@ -45,7 +45,8 @@ $(function()
     // 链接需要去除querystring，即问号之后的内容
     // 去除#号之后的内容
     // 将http改为https
-    var url =  $(location).attr("href").trim().split("?")[0].split("#")[0].replace(/^http:/, 'https:');
+    // var url = $(location).attr("href").trim().split("?")[0].split("#")[0].replace(/^http:/, 'https:');
+    var url = $(location).attr("href").trim().split("?")[0].split("#")[0];
 
     // 只有博客页面有css样式copyright
     // 本地访问时，不记录访问量

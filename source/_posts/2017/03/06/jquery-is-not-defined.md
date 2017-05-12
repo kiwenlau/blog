@@ -8,6 +8,11 @@ date: 2017-03-06 10:00:00
 
 <!-- more -->
 
+
+{% raw %}
+<script src="http://opu33c4l3.bkt.clouddn.com/highcharts.js"></script>
+{% endraw %}
+
 <div style="text-align: left;">
 <img style="width:70%;" src="jquery-is-not-defined/fundebug-jquery-error.png" />
 </div>

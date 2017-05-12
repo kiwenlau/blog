@@ -70,5 +70,5 @@ app.use(function(req, res, next)
 如果有任何疑问，可以联系我们，欢迎加入[Fundebug](https://fundebug.com)的QQ交流群：
  
 <div style="text-align: center;">
-<img style="width:15%;" src="solve-script-error/QRCode.png" />
+<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_bug.JPG" />
 </div>

@@ -348,7 +348,7 @@ it("should return hello fundebug", function(done)
 因此，对生产代码进行实时错误监测是非常有必要的，这也是我们[Fundebug](https://fundebug.com/)努力在做的事情:) 欢迎大家加入我们的**Node.js技术交流群**:
 
 <div style="text-align: center;">
-<img style="width:20%;" src="nodejs-unit-test/nodejs-qq-group.jpeg" />
+<img style="width:20%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_nodejs.JPG" />
 </div>
 
 ### 参考链接
