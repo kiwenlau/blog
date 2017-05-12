@@ -70,7 +70,12 @@ baidusitemap:
 
 
 # 部署在Coding上
+# deploy:
+#   type: git
+#   repo: https://git.coding.net/kiwenlau/kiwenlau.git
+
 deploy:
   type: git
-  repo: https://git.coding.net/kiwenlau/kiwenlau.git
+  repo: git@github.com:kiwenlau/kiwenlau.github.io.git
+  branch: master
 
