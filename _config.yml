@@ -68,14 +68,21 @@ feed:
 sitemap:
 baidusitemap:
 
+neat_enable: true
 
 # 部署在Coding上
 # deploy:
 #   type: git
 #   repo: https://git.coding.net/kiwenlau/kiwenlau.git
 
+# 部署在GitHub Pages上
 deploy:
   type: git
   repo: git@github.com:kiwenlau/kiwenlau.github.io.git
   branch: master
+
+# 部署在腾讯云
+# deploy:
+#   type: git
+#   repo: root@119.29.150.121:blog.git
 
