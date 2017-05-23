@@ -3,7 +3,7 @@ title: Fundebug累计处理1000万条错误事件!
 
 date: 2017-05-23 09:00:00
 
-tags: [新闻]
+tags: [Fundebug]
 
 ---
 
