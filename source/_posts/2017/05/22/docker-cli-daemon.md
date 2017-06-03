@@ -50,3 +50,10 @@ Docker是**Client/Server架构**。其中**Docker守护进程**是服务端，**
 - **最左侧是Docker客户端，即Docker命令行**。我们可以运行各种Docker命令，比如构建镜像(docker build)，下载镜像(docker pull)，运行容器(docker run)。Docker命令行可以安装在各种操作系统上，例如Windows，MacOS或者Linux服务器。
 - **中间是Docker主机，Docker守护进程运行在上面**。Docker命令行可以轻松地连接远程的Docker主机(给定IP和端口即可)。而在MacOS与Windows上"运行"Docker时，Docker守护进程事实上运行在Linux虚拟机中。这里关键点在于，Docker守护进程和命令行可以运行在不同的主机上。
 - **最右侧是Docker仓库**，它也是Docker生态系统中的一份子。它是我们下载、上传、存储以及分享Docker镜像的地方。Docker仓库的细节与本文无关，因此不再赘述。
+
+
+欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
+
+<div style="text-align: center;">
+<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
+</div>
