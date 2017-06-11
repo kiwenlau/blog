@@ -35,9 +35,9 @@ Uber每天可以处理20亿个**远程过程调用(Remote Procedure Call，RPC)*
 
 ### 2. PayPal
 
-PayPal需要为全世界2亿活跃用户提供服务，它做得非常完美。刚开始，PayPay团队需要分别开发前后端应用。自从PayPal选择了Node.js，整个团队只需要使用一种编程语言—JavaScript。
+PayPal需要为全世界2亿活跃用户提供服务，它做得非常完美。刚开始，PayPay需要将团队成员分工，分别开发前后端应用。自从PayPal选择使用Node.js替代Java开发后端，整个团队只需要使用一种编程语言—JavaScript。
 
-根据[Node.js at PayPal](https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/)，使用Node.js之后，应用开发速度提高了**2倍**；代码量减少了**33%**；文件数目减少了**40%**。
+根据[Node.js at PayPal](https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/)，使用Node.js之后，应用开发速度提高了**2倍**；代码量减少了**33%**；文件数目减少了**40%**，并且，每秒处理的请求数增加了**2倍**，接口的请求时间减少了**35%**。
 
 <div style="text-align: center;">
 <img style="width:80%;" src="./nodejs-best-enterprise-examples/paypal.jpg" />
@@ -123,9 +123,23 @@ LinkedIn拥有**4.5亿**用户，2016年微软以**260亿美元**收购了它。
 <img style="width:80%;" src="./nodejs-best-enterprise-examples/linkedin.jpg" />
 </div>
 
+### 参考链接
+
+- [How Uber Uses Node.js to Scale Their Business](https://nodejs.org/static/documents/casestudies/Nodejs-at-Uber.pdf)
+- [Node.js at PayPal](https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/)
+- [Making Netflix.com Faster](https://medium.com/netflix-techblog/making-netflix-com-faster-f95d15f2e972)
+- [How We Built eBay’s First Node.js Application](http://www.ebaytechblog.com/2013/05/17/how-we-built-ebays-first-node-js-application/)
+- [The Stack That Helped Medium Drive 2.6 Millennia of Reading Time](https://medium.engineering/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492)
+- [Node.js Helps NASA Keep Astronauts Safe and Data Accessible](https://nodejs.org/static/documents/casestudies/Node_CaseStudy_Nasa_FNL.pdf)
+- [The Trello Tech Stack](https://blog.fogcreek.com/the-trello-tech-stack/)
+- [LinkedIn Moved From Rails To Node](http://highscalability.com/blog/2012/10/4/linkedin-moved-from-rails-to-node-27-servers-cut-and-up-to-2.html)
+
+
 欢迎加入[我们Fundebug](https://fundebug.com/)的**Node.js技术交流群: 177654062**。
 
 <div style="text-align: center;">
 <img style="width:30%;" src="https://blog.fundebug.com/images/qq_nodejs.JPG" />
 </div>
+
+
 
