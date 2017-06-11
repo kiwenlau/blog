@@ -1,7 +1,7 @@
 ---
 title: 什么是Docker Volume?
 
-date: 2017-06-05 10:00:00
+date: 2017-06-07 10:00:00
 
 tags: [Docker]
 
@@ -10,6 +10,11 @@ tags: [Docker]
 **摘要**：**Docker Volume**，通常翻译为**数据卷**，用于保存持久化数据。当我们将数据库例如MySQL运行在Docker容器中时，一般将数据通过**Docker Volume**保存在主机上，这样即使删除MySQL容器，数据依然保存在主机上，有效保证了数据的安全性。这篇博客将通过简单的实践帮助大家理解**什么是Docker Volume**。
 
 <!-- more -->
+
+<div style="text-align: center;">
+<img style="width:80%;" src="what-is-docker-volume/docker_volume.jpg" />
+</div>
+
 
 本文所有命令都是在[play-with-docker](http://play-with-docker.com)的在线Docker实例上执行，Docker版本为**17.05.0-ce**。
 
