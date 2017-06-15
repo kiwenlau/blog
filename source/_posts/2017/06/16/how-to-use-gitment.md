@@ -48,8 +48,8 @@ var gitment = new Gitment({
   owner: 'kiwenlau',
   repo: 'blog',
   oauth: {
-    client_id: '519731e02c9081570501',
-    client_secret: '99d001512d492496f072917729acc807b579b0b3',
+    client_id: '619731e02d908157a502',
+    client_secret: '79d021512d492496a0729177b9acd807c579b1b6',
   },
 })
 gitment.render('gitment')
