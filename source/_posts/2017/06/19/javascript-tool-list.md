@@ -1,15 +1,21 @@
 ---
 title: JavaScript开发工具大全
 
-date: 2017-06-18 10:00:00
+date: 2017-06-19 10:00:00
 
 tags: [JavaScript, 翻译]
 
 ---
 
-**译者按: **最全的JavaScript开发工具，总有一款适合你！
+**译者按: **最全的JavaScript开发工具列表，总有一款适合你！
 
 <!-- more -->
+
+原文: [THE ULTIMATE LIST OF JAVASCRIPT TOOLS](https://da-14.com/blog/ultimate-list-javascript-tools)
+
+译者: [Fundebug](https://fundebug.com/)
+
+**为了保证可读性，本文采用意译而非直译。另外，本文版权归原作者所有，翻译仅用于学习**。
 
 ## 简介
 
@@ -66,7 +72,7 @@ tags: [JavaScript, 翻译]
 - [**JavaScript Debugger**](https://developer.mozilla.org/en-US/docs/Tools/Debugger)由Mozilla Developer Network (MDN)开发，可以独立用于调试Node.js代码，或者用于其他浏览器。Firefox提供了本地和远程调试功能，并且，Firefox安卓端也用于调试运行在安卓应用。
 - [**Chrome Dev Tools**](https://developers.google.com/web/tools/chrome-devtools/)提供了一系列工具，可以用于调试JavaScript代码，编辑CSS，以及测试应用性能。
 - [**ng-inspector**](http://ng-inspector.org/)是Firefox，Chrome和Safari浏览器插件，可以帮助开发者开发、理解以及调试AngularJS应用。它提供了实时更新，DOM高亮等功能。
-- [Augury](https://augury.angular.io/)是一个Chrome插件，可以用于调试Angular 2应用。它让开发者可以直接查看应用结构，操作特征以及状态变化。
+- [**Augury**](https://augury.angular.io/)是一个Chrome插件，可以用于调试Angular 2应用。它让开发者可以直接查看应用结构，操作特征以及状态变化。
 
 ### 安全
 
