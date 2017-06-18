@@ -1,5 +1,5 @@
 ---
-title: 用GitHub Isuue取代多说，是不是很厉害？
+title: 用GitHub Issue取代多说，是不是很厉害？
 
 date: 2017-06-16 10:00:00
 
