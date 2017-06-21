@@ -39,7 +39,7 @@ tags: [JavaScript, 翻译]
 ### 构建 & 自动化
 
 - **[Webpack](https://webpack.github.io/)**对JavaScript应用依赖的所有模块进行静态分析，生成依赖图，然后将它们打包成数个静态文件。
-- **[Grunt](https://gruntjs.com/)**以将重复耗时的任务自动化。Grunt的生态系统非常大8，有超过6010个插件。
+- **[Grunt](https://gruntjs.com/)**以将重复耗时的任务自动化。Grunt的生态系统非常大，有超过6010个插件。
 - **[Gulp](http://gulpjs.com/)**发布于Grunt之后，采用了完全不同的方式，使用JavaScript函数定义任务。它有超过2770个插件，并且提供了更好的控制。
 - **[Browserify](http://browserify.org/)**使得开发者可以在浏览器使用**CommonJS模块**。开发者像在node环境一样，通过`require('modules')`来组织模块之间的引用和依赖，Browserify将这些依赖打包成浏览器可以直接引用的JS文件。
 - **[Brunch](http://brunch.io/)**非常简单，速度很快。Brunch的配置文件非常简单，入门文档非常详细。Brunch会自动生成Source Map，方便了开发者Debug。
