@@ -7,7 +7,7 @@ tags: [Linux]
 
 ---
 
-SSH有三种端口转发模式，**本地端口转发(Local Port Forwarding)**，**远程端口转发(Local Port Forwarding)**以及**动态端口转发(Dynamic Port Forwarding)**。对于本地/远程端口转发，两者的方向恰好相反。**动态端口转发**则可以用于科学上网。
+SSH有三种端口转发模式，**本地端口转发(Local Port Forwarding)**，**远程端口转发(Remote Port Forwarding)**以及**动态端口转发(Dynamic Port Forwarding)**。对于本地/远程端口转发，两者的方向恰好相反。**动态端口转发**则可以用于科学上网。
 
 <!-- more -->
 
