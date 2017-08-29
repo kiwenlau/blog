@@ -3,7 +3,7 @@ title: 使用fundebug-cli批量上传Source Map
 
 date: 2017-08-24 10:00:00
 
-tags: [产品]
+tags: [Fundebug]
 
 ---
 

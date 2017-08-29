@@ -3,7 +3,7 @@ title: Fundebug上线小程序错误监控啦
 
 date: 2017-01-23 09:00:00
 
-tags: [Fundebug, 小程序]
+tags: [Fundebug]
 ---
 
 作为专业的JavaSript错误实时监测平台，[Fundebug](https://fundebug.com/)的**微信小程序实时错误监测服务**上线啦，我们能够帮助开发者及时，高效地发现并且解决小程序错误，从而提升用户体验。

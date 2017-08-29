@@ -3,7 +3,7 @@ title: Fundebug专业为小程序踩坑
 
 date: 2017-02-11 09:00:00
 
-tags: [Fundebug, 小程序]
+tags: [Fundebug]
 ---
 
 1月9日微信小程序上线，距离现在仅仅一个月，然而开发者们已经遇到了很多坑:

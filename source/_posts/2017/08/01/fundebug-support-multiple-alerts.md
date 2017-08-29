@@ -4,7 +4,7 @@ title: Fundebug支持各种第三方报警
 
 date: 2017-08-01 10:00:00
 
-tags: [新闻]
+tags: [Fundebug]
 
 ---
 

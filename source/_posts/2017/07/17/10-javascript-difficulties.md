@@ -3,7 +3,7 @@ title: 10个JavaScript难点
 
 date: 2017-07-17 10:00:00
 
-tags: [JavaScript，翻译]
+tags: [JavaScript, 翻译]
 
 ---
 

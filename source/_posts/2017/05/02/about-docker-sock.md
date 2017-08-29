@@ -3,7 +3,7 @@ title: Docker多步构建更小的Java镜像
 
 date: 2017-05-02 10:00:00
 
-tags: [Docker, 翻译, Java]
+tags: [Docker, 翻译]
 
 ---
 
