@@ -12,8 +12,8 @@ widgets:
 - tagcloud
 - recent_posts
 - popular_posts 
-- donate
-- advertisement
+# - donate
+# - advertisement
 
 
 excerpt_link: 阅读全文...
