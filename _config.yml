@@ -76,13 +76,13 @@ baidusitemap:
 #   repo: https://git.coding.net/kiwenlau/kiwenlau.git
 
 # 部署到GitHub Pages
-deploy:
-  type: git
-  repo: git@github.com:kiwenlau/kiwenlau.github.io.git
-  branch: master
-
-# 部署到腾讯云
 # deploy:
 #   type: git
-#   repo: root@119.29.150.121:blog.git
+#   repo: git@github.com:kiwenlau/kiwenlau.github.io.git
+#   branch: master
+
+# 部署到腾讯云
+deploy:
+  type: git
+  repo: root@119.29.150.121:blog.git
 
