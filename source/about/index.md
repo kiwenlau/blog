@@ -4,15 +4,15 @@ date: 2017-04-27 21:26:08
 
 ## 关于我
 
-我叫KiwenLau，是全栈应用错误监控服务平台[Fundbug](https://fundebug.com/)的创始人。我的工作内容是后端的设计、开发和运维，目前专注于[Docker](http://kiwenlau.com/tags/Docker/)，[Node.js](http://kiwenlau.com/tags/Node-js/)，[人工智能](http://kiwenlau.com/tags/人工智能/)等技术。我喜欢敲代码，也喜欢写博客。
+我叫KiwenLau，是全栈应用错误监控服务平台[Fundbug](https://fundebug.com/)的创始人。我的工作内容是后端的设计、开发和运维，目前专注于[Docker](http://kiwenlau.com/tags/Docker/)，[JavaScript](https://kiwenlau.com/tags/JavaScript/)，[Node.js](http://kiwenlau.com/tags/Node-js/)，[人工智能](http://kiwenlau.com/tags/人工智能/)等技术。我喜欢敲代码，也喜欢写博客。
 
 ## 关于本站
 
-本站是我基于[Hexo](https://hexo.io/docs/)搭建的个人技术博客。本站源代码托管在[GitHub](https://github.com)，静态文件部署在[GitHub Pages](https://pages.github.com/)上。本站所有的源代码都是开源的[kiwenlau/blog](https://github.com/kiwenlau/blog)，大家可以免费使用。
+本站是我基于[Hexo](https://hexo.io/docs/)搭建的个人技术博客。本站源代码托管在[GitHub](https://github.com)，部署在[腾讯云](https://cloud.tencent.com/)上。本站所有的源代码都是开源的[kiwenlau/blog](https://github.com/kiwenlau/blog)，大家可以免费使用。
 
 本站使用了[Light](https://github.com/hexojs/hexo-theme-light)作为主题，但是进行了大量个性化定制:
 
-- 使用[Fundebug](https://fundebug.com/)监控JavaScript脚本错误。
+- 使用[Fundebug](https://fundebug.com/)监控错误。
 - 使用[Gitment](https://github.com/imsun/gitment)实现博客评论。
 - 使用[不蒜子](http://busuanzi.ibruce.info)统计博客访问量。
 - 使用[LeanCloud](https://leancloud.cn)统计热门博客。
