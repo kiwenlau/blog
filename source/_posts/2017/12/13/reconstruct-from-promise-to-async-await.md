@@ -19,7 +19,7 @@ tags: [JavaScript, Node.js, 原创]
 
 ### Async/Await真的比Promise好吗？
 
-**是的。**
+**是的是的。**
 
 这些天，我大概重构了1000行代码，最大的感觉是代码简洁了很多：
 
@@ -71,11 +71,11 @@ useAsyncAwait()
 
 ### Async/Await真的替代了Promise？
 
-**是的。**
+**是的是的。**
 
 对于[Async/Await替代Promise的6个理由](https://blog.fundebug.com/2017/04/04/nodejs-async-await/)，批评者执着于Async/Await是基于Promise实现的，因此**替代**这个词不准确，这就有点尴尬了。
 
-一方面，这里替代的是**异步代码的编写方式**，并非完全抛弃大家心爱的**Promise**；另一方面，**Promise**是基于**回调函数**实现的，那**Promise**也没有替代**回调函数**咯？
+一方面，这里替代的是**异步代码的编写方式**，并非完全抛弃大家心爱的**Promise**，地球人都知道Async/Await是基于Promise的，不用太伤心；另一方面，**Promise**是基于**回调函数**实现的，那**Promise**也没有替代**回调函数**咯？
 
 重构代码之后，我仍然用到了Promise库[bluebird](http://bluebirdjs.com/docs/getting-started.html)。"Talk is cheap, Show me the code!"，大家不妨看看两个示例。
 
@@ -148,9 +148,42 @@ useAsyncAwait()
 
 没错，我的确使用了Promise库，readFile与Promise.map都是Promise函数。但是，在调用readFile与Promise.map函数时，使用Async/Await与使用Promise是两种不同写法，它们是相互替代的关系。
 
+### Async/Await有什么问题吗？
+
+**有啊有啊。**
+
+使用了**await**的函数定义时要加一个**async**，调用异步函数的时候需要加一个**await**，这玩意写多了也觉着烦，有时候还容易忘掉。不写**async**代码直接报错，不写**await**代码执行会出错。
+
+#### 示例4
+
+```javascript
+const Promise = require("bluebird")
+var readFile = Promise.promisify(require("fs").readFile)
+
+// 没有Async
+function withoutAsync()
+{
+    let b = await readFile("b.txt", "utf8") // 报错"SyntaxError: Unexpected identifier"
+    console.log(b) 
+}
+
+// 没有await
+async function withoutAwait()
+{
+    let b = readFile("b.txt", "utf8")
+    console.log(b) // 打印"Promise..."
+}
+
+withoutAsync()
+withoutAwait()
+```
+
+既然Async/Await写着有点添乱，可不可以不写呢？我想以后应该是可以的，只要能够自动识别异步代码就行了，这应该也是未来的发展方向。至于说如何实现，那我就不知道了哎。
+
+
 ### 总结
 
-JavaScript的异步编写方式，从回调函数到Promise再到Async/Await，表面上只是写法的变化，本质上则是语言层的一次次抽象，让我们可以**用更简单的方式实现同样的功能**，而程序员不需要去考虑代码是如何执行的。
+JavaScript的异步编写方式，从回调函数到Promise再到Async/Await，表面上只是写法的变化，本质上则是语言层的一次次抽象，让我们可以**用更简单的方式实现同样的功能**，而程序员不需要去考虑代码是如何执行的。在我看来，这样的进步应该不会停止，有一天我们也许不用写Async/Await了！
 
 ### 参考
 
