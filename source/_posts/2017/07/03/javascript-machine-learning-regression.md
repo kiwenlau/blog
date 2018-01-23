@@ -2,7 +2,7 @@
 
 title: JavaScript机器学习之线性回归
 date: 2017-07-03 10:00:00
-tags: [JavaScript, 翻译, 人工智能]
+tags: [JavaScript, 翻译]
 
 ---
 
