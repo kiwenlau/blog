@@ -4,7 +4,7 @@ title: Fundebug支持用户行为回溯
 
 date: 2017-03-29 21:00:00
 
-tags: [Fundebug, JavaScript]
+tags: [Fundebug]
 
 ---
 

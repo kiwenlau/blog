@@ -3,7 +3,7 @@ title: 有浏览器的地方就有Fundebug
 
 date: 2017-01-16 09:00:00
 
-tags: [Fundebug, JavaScript]
+tags: [Fundebug]
 ---
 
 [Fundebug](https://fundebug.com)已经全面支持主流浏览器啦！

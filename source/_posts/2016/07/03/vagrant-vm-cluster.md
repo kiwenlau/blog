@@ -2,7 +2,7 @@ title: 使用Vagrant创建多节点虚拟机集群
 
 date: 2016-07-03 10:00
 
-tags: [Vagrant]
+tags: [Vagrant,原创]
 
 ---
 

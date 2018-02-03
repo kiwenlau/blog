@@ -2,7 +2,7 @@ title: MongoDB优化之倒排索引
 
 date: 2016-09-11 10:00
 
-tags: [MongoDB]
+tags: [MongoDB,原创]
 
 ---
 

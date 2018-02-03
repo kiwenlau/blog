@@ -3,7 +3,7 @@ title: Fundebug能够捕获这些BUG
 
 date: 2017-06-29 10:00:00
 
-tags: [JavaScript, Fundebug]
+tags: [Fundebug]
 
 ---
 

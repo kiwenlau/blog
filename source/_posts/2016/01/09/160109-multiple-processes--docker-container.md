@@ -2,7 +2,7 @@ title: 如何运行多进程Docker容器？
 
 date: 2016-01-09 21:00:00
 
-tags: [Docker, Kubernetes]
+tags: [Docker, Kubernetes,原创]
 
 ---
 

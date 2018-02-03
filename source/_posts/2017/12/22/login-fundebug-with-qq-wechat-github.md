@@ -4,7 +4,7 @@ title: Fundebug支持微信/QQ/GitHub登录
 
 date: 2017-12-22 10:00:00
 
-tags: [产品]
+tags: [Fundebug]
 
 ---
 

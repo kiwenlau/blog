@@ -3,7 +3,7 @@ title: 用GitHub Issue取代多说，是不是很厉害？
 
 date: 2017-06-16 10:00:00
 
-tags: [Hexo]
+tags: [Hexo, 原创]
 
 ---
 

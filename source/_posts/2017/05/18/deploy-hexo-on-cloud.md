@@ -3,7 +3,7 @@ title: 将Hexo博客部署到云主机
 
 date: 2017-05-18 09:00:00
 
-tags: [Hexo]
+tags: [Hexo, 原创]
 
 ---
 

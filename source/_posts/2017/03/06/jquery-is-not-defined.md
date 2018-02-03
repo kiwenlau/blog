@@ -2,6 +2,9 @@
 title: 聊聊"jQuery is not defined"
 
 date: 2017-03-06 10:00:00
+
+tags: [技术, 原创]
+
 ---
 
 我的博客使用了[Fundebug](https://fundebug.com/)的[JavaScript错误监控插件](https://docs.fundebug.com/notifier/javascript/)，然后偶尔会收到**jQuery is not defined**这样的错误报警: 

@@ -2,7 +2,7 @@ title: Run Hadoop Cluster in Docker Update
 
 date: 2016-06-26 10:00
 
-tags: [Docker, Hadoop]
+tags: [Docker, Hadoop,原创]
 
 ---
 

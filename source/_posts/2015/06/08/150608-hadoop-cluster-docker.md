@@ -2,7 +2,7 @@ title: 基于Docker搭建多节点Hadoop集群
 
 date: 2015-06-08 12:44:40
 
-tags: [Hadoop, Docker]
+tags: [Hadoop, Docker,原创]
 
 ---
 

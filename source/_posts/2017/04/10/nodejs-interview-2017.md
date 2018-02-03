@@ -3,7 +3,7 @@ title: Node.js面试题之2017
 
 date: 2017-04-10 12:00:00
 
-tags: [Node.js, 翻译]
+tags: [Node.js, JavaScript, 翻译]
 ---
 
 **译者按:** 从**ECMAScript标准**，**Node.js语法**以及**NPM模块**角度来看，Node.js的发展让人目不暇接，那么面试题也得与时俱进。

@@ -3,7 +3,7 @@ title: Async/Await替代Promise的6个理由
 
 date: 2017-04-01 21:00:00
 
-tags: [Node.js, 翻译]
+tags: [Node.js, JavaScript, 翻译]
 
 ---
 
