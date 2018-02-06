@@ -12,6 +12,10 @@ tags: [商业]
 
 <!-- more -->
 
+<div style="text-align: center;">
+<img style="width:60%;" src="crisis-of-ofo-and-acfun/ofoacfun.jpg" />
+</div>
+
 
 创业圈的同学，最近应该会关注两个问题。ofo会被耗死吗？A站还能复活吗？既然它们都在等着阿里这个“白衣骑士”来救场，那这个问题只有马大叔才知道答案。
 
