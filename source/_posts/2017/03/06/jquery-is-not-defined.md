@@ -13,7 +13,7 @@ tags: [技术, 原创]
 
 
 {% raw %}
-<script src="http://opu33c4l3.bkt.clouddn.com/highcharts.js"></script>
+<script src="https://kiwenlau.com/js/highcharts.js"></script>
 {% endraw %}
 
 <div style="text-align: left;">
