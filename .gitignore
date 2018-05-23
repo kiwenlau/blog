@@ -3,4 +3,4 @@
 public/
 node_modules
 db.json
-
+themes/light/layout/_partial/head.ejs.bak
