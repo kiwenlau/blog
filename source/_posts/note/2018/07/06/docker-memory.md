@@ -2,7 +2,7 @@
 
 title: 允许docker使用无权限验证的docker registry
 
-date: 2018-07-07 10:00:00
+date: 2018-07-06 10:00:00
 
 tags: [Docker,笔记]
 
