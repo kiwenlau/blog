@@ -1,7 +1,8 @@
 menu:
   主页: /
-  博客列表: /archives
-  RSS订阅: /atom.xml
+  博客: /archives
+  笔记: /tags/笔记/
+  RSS: /atom.xml
   关于: /about
 
 # 侧边栏
