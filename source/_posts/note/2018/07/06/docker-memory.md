@@ -1,6 +1,6 @@
 ---
 
-title: 允许docker使用无权限验证的docker registry
+title: 允许Docker使用无权限验证的Docker Registry
 
 date: 2018-07-06 10:00:00
 
@@ -8,7 +8,7 @@ tags: [Docker,笔记]
 
 keywords: docker
 
-description: 允许docker使用无权限验证的docker registry
+description: 允许Docker使用无权限验证的Docker Registry
 
 ---
 
@@ -16,7 +16,7 @@ description: 允许docker使用无权限验证的docker registry
 
 <!-- more -->
 
-默认情况下，docker不能使用没有配置权限验证的**docker registry**，会出现如下报错：
+默认情况下，Docker不能使用没有配置权限验证的Docker Registry，会出现如下报错：
 
 ```bash
 docker pull 192.168.59.100:5000/ubuntu
@@ -30,7 +30,7 @@ vim /etc/docker/daemon.json
 {  "insecure-registries" : ["192.168.59.100:5000"]}
 ```
 
-然后重启Docker
+然后重启docker
 
 ```bash
 sudo systemctl restart docker // ubuntu 16.04
