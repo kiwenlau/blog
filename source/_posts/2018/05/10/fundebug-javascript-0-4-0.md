@@ -4,7 +4,7 @@ title: Fundebug：JavaScript插件支持过滤特定属性不存在的错误
 
 date: 2018-05-10 10:00:00
 
-tags: [JavaScript, 产品]
+tags: [JavaScript, Fundebug]
 
 ---
 
