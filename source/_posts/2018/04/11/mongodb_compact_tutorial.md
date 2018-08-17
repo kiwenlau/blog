@@ -99,8 +99,3 @@ rs.stepDown()
 - [MongoDB文档：compact](https://docs.mongodb.com/manual/reference/command/compact/)
 - [MongoDB文档：Perform Maintenance on Replica Set Members](https://docs.mongodb.com/manual/tutorial/perform-maintence-on-replica-set-members/)
 
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

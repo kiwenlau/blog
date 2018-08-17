@@ -87,8 +87,3 @@ fundebug-cli upload --apikey "API-KEY" --appversion 1.0.0 --directory dist/
 - [Fundebug支持高亮出错代码位置](https://blog.fundebug.com/2017/11/21/fundebug-highlight-error-code/)
 - [Fundebug文档 - Source Map](https://docs.fundebug.com/notifier/javascript/sourcemap/)
 - [Fundebug文档 - appversion](https://docs.fundebug.com/notifier/javascript/customize/appversion.html)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

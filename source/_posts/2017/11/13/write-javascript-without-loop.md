@@ -168,8 +168,3 @@ console.log(newArray);
 </div>
 
 不难发现，我是通过使用数组的[reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)、[filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)以及[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)方法来避免循环语句的，这是我的个人偏好。使用它们，可以帮助我们做很多有意思的事情。上面的图片来自[Steven Luscher](https://twitter.com/steveluscher)，它们形象的表现了这3个方法的功能。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

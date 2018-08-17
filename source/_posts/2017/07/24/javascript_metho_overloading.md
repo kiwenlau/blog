@@ -205,8 +205,3 @@ console.log(users.find("John", "E", "Resig")); // 输出undefined
 由**addMethod**函数的调用顺序可知，**users.find**最终绑定的是**find2**函数。然而，在绑定**find2**时，**old**为**find1**；同理，绑定**find1**时，**old**为**find0**。3个函数**find0**,**find1**与**find2**就这样通过闭包链接起来了。
 
 根据**addMethod**的逻辑，当**fn.length**与**arguments.length**不匹配时，就会去调用**old**，直到匹配为止。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

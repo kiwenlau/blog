@@ -132,8 +132,3 @@ May you stay forever young.
 ### 参考
 
 - [MDN：正则表达式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

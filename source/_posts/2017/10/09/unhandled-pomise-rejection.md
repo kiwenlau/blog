@@ -138,7 +138,3 @@ foo();
 
 - [Promise Rejection Events Sample](https://googlechrome.github.io/samples/promise-rejection-events/)
 - [Event: 'unhandledRejection'](https://nodejs.org/api/process.html#process_event_unhandledrejection)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

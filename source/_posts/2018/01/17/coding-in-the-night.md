@@ -64,9 +64,3 @@ tags: [随笔, 原创]
 
 #### 参考
 - [万维钢：《万万没想到：用理工科思维理解世界》](https://book.douban.com/subject/25986341/)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

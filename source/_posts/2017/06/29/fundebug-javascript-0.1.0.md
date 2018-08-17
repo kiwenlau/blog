@@ -75,11 +75,3 @@ xhr.send(JSON.stringify(
 <div style="text-align: center;">
 <img style="width:40%;" src="fundebug-javascript-0.1.0/03.png" />
 </div>
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**全栈BUG监控交流群: 622902485**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
-

@@ -54,7 +54,3 @@ https://og6593g2z.qnssl.com/fundebug.0.3.3.min.js
 #### 参考 
 
 - [Chrome’s Plan to Distrust Symantec Certificates](https://security.googleblog.com/2017/09/chromes-plan-to-distrust-symantec.html)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

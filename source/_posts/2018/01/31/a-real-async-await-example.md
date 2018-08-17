@@ -318,8 +318,3 @@ Promise示例中的同步函数**validateInput**和**comparePasswords**的代码
 - [重构：从Promise到Async/Await](https://blog.fundebug.com/2017/12/13/reconstruct-from-promise-to-async-await/)
 - [Async/Await替代Promise的6个理由](https://blog.fundebug.com/2017/04/04/nodejs-async-await/)
 - [Async/Await是这样简化JavaScript代码的](https://blog.fundebug.com/2017/10/16/async-await-simplify-javascript/)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

@@ -151,9 +151,3 @@ console.log(copy) // 输出{x:1}
 - [Object properties in JavaScript](http://2ality.com/2012/10/javascript-properties.html)
 - [Properties in JavaScript: definition versus assignment](http://2ality.com/2012/08/property-definition-assignment.html)
 - [Callable entities in ECMAScript 6](http://2ality.com/2013/08/es6-callables.html)
-
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

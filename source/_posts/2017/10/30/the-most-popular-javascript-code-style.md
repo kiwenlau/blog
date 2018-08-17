@@ -85,8 +85,3 @@ tags: [JavaScript, 翻译]
 因此，如果你在新项目中采用[AirBnb](https://github.com/airbnb/javascript)风格 (2个空格, 行尾使用分号, etc.)，这是一个不错的选择，因为大多数开发者的代码风格与你一致。 
 
 - 本文的数据都放在GitHub：[jscodestyle](https://github.com/sapegin/jscodestyle)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -377,8 +377,3 @@ console.log(service.port) // 3000
 - [Exploring ES6](https://leanpub.com/exploring-es6)
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 - [Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

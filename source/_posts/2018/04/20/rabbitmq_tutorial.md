@@ -281,8 +281,3 @@ connectRabbitMQ();
 - [RbbitMQ文档：Work Queue(JavaScript)](https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html)
 - [Won't persist data](https://github.com/docker-library/rabbitmq/issues/106)
 - [How to build reconnect logic for amqplib](https://gist.github.com/carlhoerberg/006b01ac17a0a94859ba)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

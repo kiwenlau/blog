@@ -194,11 +194,3 @@ mocha-phantomjs --path /usr/local/bin/phantomjs ./test/index.html
 ```
 
 这样，执行**npm test**命令就可以运行测试。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
-
-
-

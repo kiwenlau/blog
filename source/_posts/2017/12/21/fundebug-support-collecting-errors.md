@@ -30,7 +30,3 @@ tags: [Fundebug]
 另外在错误详情页面也可以进行收藏操作。
 
 这样，开发者就可以随时查看感兴趣的错误咯！
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

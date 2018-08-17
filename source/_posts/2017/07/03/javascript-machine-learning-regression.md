@@ -253,10 +253,3 @@ f(x) = 0.202 * x + 9.31
 ```
 
 感兴趣的话，请持续关注 [machine-learning-with-js](https://github.com/abhisheksoni27/machine-learning-with-js)，我将使用JavaScript实现各种机器学习算法。
-
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**全栈BUG监控交流群: 622902485**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -63,9 +63,3 @@ JavaScript代码测试有很多分类，比如**单元测试(unit test)**、**�
 ### 总结
 
 测试JavaScript代码时，应该着重于单元测试，它非常容易编写和维护，除了可以减少BUG还有很多益处。而集成测试与功能测试应该作为补充。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**全栈BUG监控交流群: 622902485**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

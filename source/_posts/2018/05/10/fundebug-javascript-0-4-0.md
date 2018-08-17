@@ -60,11 +60,3 @@ fundebug.filters = [
 ```
 
 另外，0.4.0的插件还支持[错误采样](https://blog.fundebug.com/2018/05/09/fundebug-javascript-0-4-0/)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
-
-
-

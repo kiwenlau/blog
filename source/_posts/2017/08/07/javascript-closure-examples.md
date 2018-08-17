@@ -218,8 +218,3 @@ closure2(-10); // 打印"num: 990; anArray 1,2,3,990; ref.someVar closure 2"
 
 - [Private Members in JavaScript](http://web.archive.org/web/20080209105120/http://www.crockford.com/javascript/private.html)
 - [Memory Leakage in Internet Explorer ](http://web.archive.org/web/20080209105120/http://www.codeproject.com/jscript/LeakPatterns.asp)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

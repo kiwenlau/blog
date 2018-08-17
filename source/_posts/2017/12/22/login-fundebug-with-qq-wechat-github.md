@@ -56,7 +56,3 @@ tags: [Fundebug]
 后续我们会支持更多的登陆方式，敬请期待！
 
 Fundebug, Debug with Fun~
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

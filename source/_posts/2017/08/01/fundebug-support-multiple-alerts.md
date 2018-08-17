@@ -38,9 +38,3 @@ tags: [Fundebug]
 
 另外，我们还计划添加更多的报警方式，欢迎各位用户给我们提供意见。
 
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**全栈BUG监控交流群: 622902485**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -376,9 +376,3 @@ db.javascriptevents.explain("executionStats").count({"projectId" : ObjectId("582
 
 - [MongoDB 复合索引](http://blog.csdn.net/leshami/article/details/53542371)
 - [MongoDB文档：Compound Indexes](https://docs.mongodb.com/manual/core/index-compound/)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

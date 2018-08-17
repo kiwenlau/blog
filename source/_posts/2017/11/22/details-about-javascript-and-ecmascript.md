@@ -115,8 +115,3 @@ JavaScrit基本上实现了ECMA-262的标准，但是也有一些不同。Mozill
 JavaScript是1996年创造的，它在1997年提交给Ecma International，因此才有了ECMAScript。同时，由于JavaScript遵循ECMAScript标准，因此JavaScript是ECMAScript的实例。
 
 因此：ECMAScript是基于JavaScript的，而JavaScript也是基于ECMAScript的，两者密不可分。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -138,8 +138,3 @@ it("1加1等于2", function()
 
 - [Fundebug: 玩转Node.js单元测试](https://blog.fundebug.com/2017/03/20/nodejs-unit-test/)
 - [Fundebug: 重新思考单元测试](https://blog.fundebug.com/2017/12/20/rethinking-unit-test/)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

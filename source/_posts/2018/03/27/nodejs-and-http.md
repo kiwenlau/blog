@@ -88,8 +88,3 @@ function onRequest (req, res) {
 
 Node.js启用HTTP/2特性可以帮助我们优化客户端与服务端的交互性能。使用服务器推送，我们可以在浏览器请求资源之前，将资源推送给浏览器，这样可以减少页面加载时间，提高用户体验。
 
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

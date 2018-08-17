@@ -194,8 +194,3 @@ console.log(
 ```
 
 可知，我将每一种参数类型对应的操作绑定到了**doubler.operationsByType**，这样不需要switch语句，就可以实现doubler函数了。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

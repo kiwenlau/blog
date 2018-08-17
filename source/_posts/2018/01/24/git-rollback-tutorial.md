@@ -166,9 +166,3 @@ Changes to be committed:
 
 - [git-revert - Revert some existing commits](https://git-scm.com/docs/git-revert)
 - [git-reset - Reset current HEAD to the specified state](https://git-scm.com/docs/git-reset)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

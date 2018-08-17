@@ -69,9 +69,3 @@ fundebug.init({
 ##### 3. 将[https://wegame.fundebug.net](https://wegame.fundebug.net)添加到**request合法域名**
 
 具体步骤请查看[Fundebug文档](https://docs.fundebug.com/notifier/wegame/)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

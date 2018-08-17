@@ -132,9 +132,3 @@ true
 2. [What is {} + {} in JavaScript?](http://2ality.com/2012/01/object-plus-object.html) 
 3. [String concatenation in JavaScript](http://2ality.com/2011/10/string-concatenation.html) 
 4. [JavaScript String 对象](http://www.w3school.com.cn/jsref/jsref_obj_string.asp)
-
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

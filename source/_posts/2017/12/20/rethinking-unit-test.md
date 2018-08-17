@@ -112,8 +112,3 @@ tags: [原创, 技术]
 - [Fundebug: JavaScript有这几种测试分类](https://blog.fundebug.com/2017/06/26/javascript-test-type/)
 - [王垠：测试的道理](http://www.yinwang.org/blog-cn/2016/09/14/tests)
 - [酷壳：单元测试要做多细？](https://coolshell.cn/articles/8209.html/comment-page-1)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

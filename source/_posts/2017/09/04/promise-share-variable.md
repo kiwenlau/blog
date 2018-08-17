@@ -191,7 +191,3 @@ catch (error)
 - [ES proposal: Promise.prototype.finally()](http://2ality.com/2017/07/promise-prototype-finally.html)
 - [ES proposal: Promise.try()](http://2ality.com/2017/08/promise-try.html)
 - [Async/Await替代Promise的6个理由](https://blog.fundebug.com/2017/04/04/nodejs-async-await/)
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

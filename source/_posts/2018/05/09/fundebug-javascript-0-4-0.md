@@ -38,11 +38,3 @@ Fundebug的[付费套餐](https://www.fundebug.com/price)主要是根据错误�
 
 另外，0.4.0的插件还支持[过滤特定属性不存在的错误](https://blog.fundebug.com/2018/05/10/fundebug-javascript-0-4-0/)
 
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
-
-
-

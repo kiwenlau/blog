@@ -176,8 +176,3 @@ Prettier可以在保存文件的时候可以自动统一风格：
 ![](https://cdn-images-1.medium.com/max/1600/0*spj1CsmHiP8l4C5h.gif)
 
 感兴趣的话，可以按照这个教程[配置Prettier](https://survivejs.com/maintenance/code-quality/code-formatting/)。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

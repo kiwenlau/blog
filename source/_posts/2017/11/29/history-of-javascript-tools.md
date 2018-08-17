@@ -441,8 +441,3 @@ $ npm run server
 简单总结一下：刚开始我们用**HTML和JS**写代码；后来我们用**包管理工具**来安装第三方库；然后我们用**打包工具**实现模块化；再后来我们用**转码器**从而使用最新语法；最后我们用**任务管理工具**来自动化一些重复的任务。对于新手来说，这一切都显得非常头疼，更头疼的是这一切还在不断变化之中。
 
 当然也有好消息，各个框架为了方便初学者，都会提供工具，把所有配置都弄好： Ember有**ember-cli**，Angular有**angular-cli**, React有**create-react-app**, Vue有**vue-cli**。这样，似乎你什么都不用管，只需要写代码就可以了。然而，现实是残酷的，总有一天你需要对Babel或者Webpack进行一些个性化配置。因此，理解每一个工具的作用还是非常有必要的，希望这篇博客可以帮助大家。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

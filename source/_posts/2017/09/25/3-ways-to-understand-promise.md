@@ -151,6 +151,3 @@ asyncFunc()
 - [Async functions](http://exploringjs.com/es2016-es2017/ch_async-functions.html)
 - [ECMAScript 6 入门 - Promise对象](http://es6.ruanyifeng.com/#docs/promise)
 
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -374,7 +374,3 @@ fetchData(query).then(data =>
 ```
 
 Async/Await是写异步代码的新方式，以前的方法有**回调函数**和**Promise**。相比于**Promise**，它更加简洁，并且处理错误、条件语句、中间值都更加方便，因此有望替代**Promise**，成为新一代的一步代码编写方式。对细节感兴趣的话，可以查看[Fundebug]()翻译的[《Async/Await替代Promise的6个理由》](https://blog.fundebug.com/2017/04/04/nodejs-async-await/)。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

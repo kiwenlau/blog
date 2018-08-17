@@ -75,9 +75,3 @@ fundebug.init({
 ```
 
 这样，用户行为中将不会包含**HTTP请求**。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

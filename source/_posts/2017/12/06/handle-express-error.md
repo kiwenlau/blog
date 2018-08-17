@@ -156,8 +156,3 @@ app.get('/users/:id', asyncMiddleware(async (req, res) => {
 
 - 验证HTTP请求参数可以使用[joi](https://www.npmjs.com/package/joi)模块
 - 打印日志可以使用[winston](https://www.npmjs.com/package/winston)或者[pino](https://www.npmjs.com/package/pino)模块
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

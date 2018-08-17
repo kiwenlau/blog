@@ -286,8 +286,3 @@ dogsCounter.display(); // ERROR !!!
 ### 总结
 
 **闭包(Closure)**是JavaScript一个非常棒的特性。掌握它，我们可以从容应对一些常见的编程需求。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -231,12 +231,3 @@ Example 2 prediction: Iris virginica
 
 - [Get Started with Eager Execution](https://www.tensorflow.org/get_started/eager)
 - [Introduction to TensorFlow](https://www.youtube.com/watch?v=MotG3XI2qSs)
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
-
-
-

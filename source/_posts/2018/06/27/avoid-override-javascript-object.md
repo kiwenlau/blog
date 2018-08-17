@@ -169,8 +169,3 @@ song.getLongTitle = function() // Uncaught TypeError: Cannot assign to read only
 -  Safari 5.1+
 -  Chrome 7+
 -  Opera 12+
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

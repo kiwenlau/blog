@@ -60,8 +60,3 @@ tags: [Fundebug]
 > 为了保证可读性，本文采用意译而非直译。另外，本文版权归原作者所有，翻译仅用于学习。
 
 我们欢迎转载，但是要求**注明作者Fundebug**、**保留原文地址**并且附上**Fundebug公众号的二维码**。否则，我们将委托相关机构追诉法律责任。
-
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>

@@ -95,9 +95,3 @@ tags: [JavaScript, 翻译]
 - [**NPM**](https://www.npmjs.com/)是**node package manager**的缩写，事实上NPM包可以用于前后端。它是JavaScript包管理系统，也是世界上最大的依赖库，有超过475,000个模块。
 - [**Yarn**](https://yarnpkg.com/)是Facebook, Google, Exponent 和 Tilde 开发的一款新的 JavaScript 包管理工具。与NPM相比，它解决了安全、性能以及一致性问题。
 - [**Duo**](http://duojs.org/)吸取了[Component](https://github.com/component/component), [Browserify](https://github.com/substack/node-browserify)和[Go](http://golang.org/)的经验，致力于简化大型Web应用的构建过程。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**全栈BUG监控交流群: 622902485**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_bug.JPG" />
-</div>
