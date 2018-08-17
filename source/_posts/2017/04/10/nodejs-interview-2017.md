@@ -215,28 +215,8 @@ Promise.resolve(1)
 6. x为2，打印2。
 7. 不会执行，因为没有错误抛出。
 
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Node.js技术交流群: 177654062**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_nodejs.JPG" />
-</div>
 
 ### 参考链接
 
 - [10个常见的Node.js面试题](http://wwsun.github.io/posts/nodejs-interview-questions.html)
 - [XSS - Stealing Cookies 101](http://jehiah.cz/a/xss-stealing-cookies-101)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

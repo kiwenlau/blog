@@ -30,10 +30,6 @@ tags: [Fundebug]
 
 [SegmentFault](https://segmentfault.com/)是国内最知名的技术问答站点，对于开发者来说，在搜索技术问题时，都能看到SegmentFault的身影。根据[Alexa](http://www.alexa.cn)，SegmentFault的日均PV高达数百万。还有，SegmentFault的网站和App的设计非常简洁美观，值得点赞。
 
-### 关于Fundebug
-
-[Fundebug](https://fundebug.com/)是全栈JavaScript错误监控平台，可以监控线上JS代码的错误，帮助开发者及时发现并修复代码中的BUG。Fundebug上线已经接近**1年**，服务**2000+团队**，累计处理错误数马上就会**突破1亿**。感兴趣的朋友，可以[免费使用](https://fundebug.com/team/create)我们的服务。
-
 ### 参考
 
 - [SegmentFault 2017 年第三季度 Top Writer](https://segmentfault.com/a/1190000011546440)

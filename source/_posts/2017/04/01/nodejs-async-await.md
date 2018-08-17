@@ -283,13 +283,3 @@ Async/Await是近年来JavaScript添加的最革命性的的特性之一。它�
 
 - 它使得异步代码不在明显: 我们已经习惯了用回调函数或者.then来识别异步代码，我们可能需要花数个星期去习惯新的标志。但是，C#拥有这个特性已经很多年了，熟悉它的朋友应该知道暂时的稍微不方便是值得的。
 - Node 7不是LTS（长期支持版本）: 但是，Node 8下个月就会发布，将代码迁移到新版本会非常简单。
-
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Node.js技术交流群: 177654062**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_nodejs.JPG" />
-</div>
-
-
-

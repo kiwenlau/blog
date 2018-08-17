@@ -261,24 +261,3 @@ MODULE 7595: load "/Users/gergelyke/Development/risingstack/mastering-nodejs-cli
 使用**OPENSSL_CONF**，可以指定OpenSSL的配置文件。
 
 访问[官方文档](https://nodejs.org/dist/latest-v7.x/docs/api/cli.html#cli_environment_variables)，可以查看Node命令的所有选项。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Node.js技术交流群: 177654062**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_nodejs.JPG" />
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

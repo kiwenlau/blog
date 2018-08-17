@@ -167,24 +167,3 @@ Filesystem          Size      Used Available Use% Mounted on
 现在，已使用的磁盘空间又变成了4%。本文的示例只是冰山一角，因为一旦我们运行了真正的容器，并且使用了Docker数据卷和Docker网络，则磁盘空间将会更快用完。感兴趣的话，可以查看博客最后的视频(不要忘了订阅！)。在视频中，我介绍一个简单的WordPress应用，它由数个容器，数据卷以及网络构成。这个应用可以很快地消耗掉磁盘空间，我将介绍如何处理这个问题。
 
 视频: [What's eating my disk?!Clean up your Docker System](https://youtu.be/G308610YNU4)
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

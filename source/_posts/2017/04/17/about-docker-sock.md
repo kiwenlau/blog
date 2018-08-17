@@ -129,24 +129,3 @@ docker run -p 8080:80 -d nginx
 希望这些简单的解释可以帮助大家理解**/var/run/docker.sock**文件，并且明白它绑定到容器时有何作用。显然，真正的应用会使用代码而不是curl命令给Docker守护进程发送HTTP请求。
 
 注意: 绑定Docker套接字之后，容器的权限会很高，可以控制Docker守护进程。因此，这一点必须谨慎使用，只能用于足够信任的容器。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

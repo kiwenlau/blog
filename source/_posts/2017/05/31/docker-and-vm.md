@@ -65,10 +65,3 @@ tags: [Docker, 翻译]
 说了这么多Docker的优势，大家也没有必要完全否定**虚拟机**技术，因为两者有不同的使用场景。**虚拟机**更擅长于彻底隔离整个运行环境。例如，云服务提供商通常采用虚拟机技术隔离不同的用户。而**Docker**通常用于隔离不同的应用，例如**前端**，**后端**以及**数据库**。
 
 如果你对Docker感兴趣的话，不妨学习一下[Dive Into Docker course](https://diveintodocker.com/courses/dive-into-docker)。
-
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>

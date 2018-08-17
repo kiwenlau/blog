@@ -84,11 +84,3 @@ Stage指的是[TC39特性批准流程](http://exploringjs.com/es2016-es2017/ch_t
 
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/#docs/intro#%E8%AF%AD%E6%B3%95%E6%8F%90%E6%A1%88%E7%9A%84%E6%89%B9%E5%87%86%E6%B5%81%E7%A8%8B)
 
-### 关于Fundebug
-[Fundebug](https://www.fundebug.com)专注于JavaScript、微信小程序、微信小游戏、支付宝小程序、React Native、Node.js和Java实时BUG监控。
-自从2016年双十一正式上线，Fundebug累计处理了6亿+错误事件，得到了Google、360、金山软件等众多知名用户的认可。欢迎免费试用！
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

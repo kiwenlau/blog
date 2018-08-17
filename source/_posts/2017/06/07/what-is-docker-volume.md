@@ -97,25 +97,3 @@ hello.txt  world.txt
 ### 5. 结论
 
 **Docker Volume**本质上是容器与主机之间共享的目录或者文件，这样**Docker Volume**中的数据可以在主机和容器中实时同步。使用Virtualbox创建虚拟机时，也可以配置共享目录，这与**Docker Volume**非常相似。
-
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

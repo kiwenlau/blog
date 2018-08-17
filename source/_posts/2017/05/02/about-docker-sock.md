@@ -123,24 +123,3 @@ people                              singlestage         13dbcf8f54f6        5 mi
 可知，使用多步构建可以有效减小镜像大小。
 
 查看[PR #31257](https://github.com/moby/moby/pull/31257)，有更加详细的讨论。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -397,8 +397,3 @@ CMD ["start"]
 
 当请求失败时，`curl --fail` 命令返回非0状态。
 
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>

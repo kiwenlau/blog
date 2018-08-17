@@ -88,11 +88,3 @@ NFC手机壳，自动识别颜色，满满的未来感，其实早在[2015年Goo
 - [如何看待这俩天根据手机壳改变软件主题色的产品和开发打架事件](https://www.zhihu.com/question/288027348/answer/458395471)
 - [谷歌和Skrillex合作开发智能手机壳](http://tech.163.com/15/0521/08/AQ4I2GBQ000915BE.html)
 
-### 关于Fundebug
-[Fundebug](https://www.fundebug.com)专注于JavaScript、微信小程序、微信小游戏、支付宝小程序、React Native、Node.js和Java实时BUG监控。
-自从2016年双十一正式上线，Fundebug累计处理了6亿+错误事件，得到了Google、360、金山软件等众多知名用户的认可。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

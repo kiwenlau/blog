@@ -250,9 +250,3 @@ docker service update
 我遇到过Swarm网络方面的问题。有时候所有的请求都被转发到某一个容器，然而还有9个其他容器正在运行。这时，可以尝试减少/增加实例个数，或者改变路由类型(使用`--endpoint-mode`选项)
 
 如果没有监控日志的话，这样的问题很难被发现。因此，搭建监控系统是非常必要的。
-
-欢迎加入[我们Fundebug](https://fundebug.com/)的**Docker技术交流群: 305097057**。
-
-<div style="text-align: center;">
-<img style="width:30%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_docker.JPG" />
-</div>

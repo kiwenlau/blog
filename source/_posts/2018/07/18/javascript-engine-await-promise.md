@@ -77,13 +77,3 @@ const a = async () => {
 
 一般来说，尽量不要去使用Babel转码器。[所有支持Service Workers的浏览器](https://caniuse.com/#feat=serviceworkers)都支持Async/Await，因此没有必要去对Async/Await转码。这一点对于[JavaScript modules via script tag](https://caniuse.com/#feat=es6-module)同样适用。关于这一点，大家可以参考[Deploying ES2015+ Code in Production Today](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)。
 
-
-### 关于Fundebug
-
-[Fundebug](https://www.fundebug.com)专注于JavaScript、微信小程序、微信小游戏，Node.js和Java实时BUG监控。
-自从2016年双十一正式上线，Fundebug累计处理了5亿+错误事件，得到了众多知名用户的认可。欢迎免费试用！
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-

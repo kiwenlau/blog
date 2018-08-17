@@ -238,13 +238,3 @@ Object.defineProperty(obj, "name",
 - [Object.getOwnPropertyDescriptor()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor)
 - [StackOverflow: Why can't I redefine a property in a Javascript object?](https://stackoverflow.com/questions/25517989/why-cant-i-redefine-a-property-in-a-javascript-object/51112727#51112727)
 
-
-### 关于Fundebug
-
-[Fundebug](https://www.fundebug.com)专注于JavaScript、微信小程序、微信小游戏，Node.js和Java实时BUG监控。
-自从2016年双十一正式上线，Fundebug累计处理了5亿+错误事件，得到了众多知名用户的认可。欢迎免费试用！
-
-<div style="text-align: center;">
-<img style="width:30%;" src="https://blog.fundebug.com/images/qq_bug.JPG" />
-</div>
-
