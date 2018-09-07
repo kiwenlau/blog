@@ -12,7 +12,7 @@ description: 这次，我从纯技术角度分析腾讯云与前沿数控的磁�
 
 ---
 
-**摘要：** 阿门，愿云端没有BUG！
+**摘要：** 除了吃瓜，还是得吸取教训啊同学们！
 
 <div style="text-align: center;">
 <img style="width:70%;" src="tencent-cloud-disck-incident/coding.png" />
@@ -89,7 +89,7 @@ description: 这次，我从纯技术角度分析腾讯云与前沿数控的磁�
 我加了前沿数控的负责人的微信，他在朋友圈已经声明和解了。另外，前沿数控所发的两篇微博也删掉了...
 
 <div style="text-align: center;">
-<img style="width:70%;" src="tencent-cloud-disck-incident/hejie.jpg" />
+<img style="width:50%;" src="tencent-cloud-disck-incident/hejie.jpg" />
 </div>
 
 花钱能解决2个当事人的矛盾，但是不能解决技术问题，我们除了吃瓜，还是得从这件事中吸取教训。
