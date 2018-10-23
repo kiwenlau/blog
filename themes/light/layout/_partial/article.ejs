@@ -1,57 +1,56 @@
 <article class="<%= item.layout %>">
 
   <% if (item.photos && item.photos.length){ %>
-    <%- partial('post/gallery') %>
+  <%- partial('post/gallery') %>
   <% } %>
 
   <div class="post-content">
 
     <!-- 关于页面没有标题 -->
     <% if (page.title !== "关于"){ %>
-     <header>
-     <div style="display: flex;">
-      <% if (item.layout !== 'page'){ %>
+    <header>
+      <div style="display: flex;">
+        <% if (item.layout !== 'page'){ %>
         <div class="icon"></div>
-        <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>  
-      <% } %>
-      <% if (!index){ %>
-      <span id="busuanzi_container_page_pv" style="margin-bottom: 5px; line-height: 1; font-size: 0.9em;" >&#160;&#160;&#160;&#160;&#160;阅读  <span id="busuanzi_value_page_pv"></span></span>
-      <% } %>
-     </div>
+        <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>">
+            <%= item.date.format(config.date_format) %></a></time>
+        <% } %>
+      </div>
       <%- partial('post/title') %>
     </header>
     <% } %>
 
- 
+
 
     <div class="entry">
       <% if (item.excerpt && index){ %>
-        <%- item.excerpt %>
+      <%- item.excerpt %>
       <% } else if (page.title === "关于") { %>
-        <!-- 关于页面没有版权申明 -->
-        <%- item.content %>
+      <!-- 关于页面没有版权申明 -->
+      <%- item.content %>
       <% } else { %>
-        <%- item.content %>
-        <!--版权声明-->
-        <%- partial('copyright') %>
+      <%- item.content %>
+      <!--版权声明-->
+      <%- partial('copyright') %>
       <% } %>
     </div>
 
     <footer>
       <% if (index){ %>
-        <% if (item.excerpt){ %>
-          <div class="alignleft">
-            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
-          </div>
-        <% } %>
-        <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignright">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
-        </div>
-        <% } %>
+      <% if (item.excerpt){ %>
+      <div class="alignleft">
+        <a href="<%- config.root %><%- item.path %>#more" class="more-link">
+          <%= theme.excerpt_link %></a>
+      </div>
+      <% } %>
+      <% if (item.comment && config.disqus_shortname){ %>
+      <div class="alignright">
+        <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+      </div>
+      <% } %>
       <% } else { %>
-        <%- partial('post/category') %>
-        <%- partial('post/tag') %>
+      <%- partial('post/category') %>
+      <%- partial('post/tag') %>
       <% } %>
       <div class="clearfix"></div>
     </footer>
@@ -63,25 +62,24 @@
 
 <!-- 使用Gitmemt作为评论系统 -->
 <% if (!index){ %>
-  <%- partial('gitment') %>
+<%- partial('gitment') %>
 <% } %>
 
 
 <!--百度自动推送代码-->
 <% if (!index){ %>
 <script>
-(function(){
+  (function () {
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
     }
     else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
     }
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(bp, s);
-})();
+  })();
 </script>
 <% } %>
-

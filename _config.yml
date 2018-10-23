@@ -84,5 +84,5 @@ baidusitemap:
 # 部署到腾讯云
 deploy:
   type: git
-  repo: root@119.29.150.121:blog.git
+  repo: root@123.206.25.14:blog.git
 

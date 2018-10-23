@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-</script>
-  <meta charset="utf-8">
-  <%
+    </script>
+    <meta charset="utf-8">
+    <%
   var title = [];
   if (page.current > 1) title.push(__('page', page.current));
   if (page.title) title.push(page.title);
@@ -15,111 +16,116 @@
   }
   title.push(config.title);
   %>
-  <title><%= title.join(' | ') %></title>
-  <% if (config.author){ %><meta name="author" content="<%= config.author %>"><% } %>
+    <title>
+        <%= title.join(' | ') %>
+    </title>
+    <% if (config.author){ %>
+    <meta name="author" content="<%= config.author %>">
+    <% } %>
 
-  <!-- 设置description -->
-  <% if (page.description){ %>
-      <meta name="description" content="<%= page.description %>">
-  <% } else if (config.description){ %>
-      <meta name="description" content="<%= config.description %>">
-  <% } else if (page.excerpt){ %>
-      <meta name="description" content="<%= page.excerpt %>">
-  <% } else if (page.content){ %>
-      <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
-  <% } %>
+    <!-- 设置description -->
+    <% if (page.description){ %>
+    <meta name="description" content="<%= page.description %>">
+    <% } else if (config.description){ %>
+    <meta name="description" content="<%= config.description %>">
+    <% } else if (page.excerpt){ %>
+    <meta name="description" content="<%= page.excerpt %>">
+    <% } else if (page.content){ %>
+    <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } %>
 
-  <meta name="description" content="<%= strip_html(page.excerpt).replace(/^s*/, '').replace(/s*$/, '') %>" >
+    <meta name="description" content="<%= strip_html(page.excerpt).replace(/^s*/, '').replace(/s*$/, '') %>">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <% if (page.title){ %><meta property="og:title" content="<%= page.title %>"/><% } %>
-  <meta property="og:site_name" content="<%= config.title %>"/>
+    <% if (page.title){ %>
+    <meta property="og:title" content="<%= page.title %>" />
+    <% } %>
+    <meta property="og:site_name" content="<%= config.title %>" />
 
-  <% if(page.cover) { %>
+    <% if(page.cover) { %>
     <meta property="og:image" content="<%= page.cover %>" />
-  <% } else { %>
-    <meta property="og:image" content="<%= config.cover %>"/>
-  <% } %>
+    <% } else { %>
+    <meta property="og:image" content="<%= config.cover %>" />
+    <% } %>
 
-  
-  <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
-  <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  <!--SEO之将标签设为关键词-->
-  <% if (page.keywords){ %>
-      <meta name="keywords" content="<%= page.keywords %>">
-  <% } else if (page.tags){ %>
-  <%
+    <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>"
+        title="<%= config.title %>" type="application/atom+xml">
+    <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!--SEO之将标签设为关键词-->
+    <% if (page.keywords){ %>
+    <meta name="keywords" content="<%= page.keywords %>">
+    <% } else if (page.tags){ %>
+    <%
       var keywords_content=[];
       page.tags.each(function(k){ 
           keywords_content.push(k.name);
   }) %>
-      <meta name="keywords" content="<%= keywords_content %>">  
-  <% } %>
+    <meta name="keywords" content="<%= keywords_content %>">
+    <% } %>
 
-<!--网站头像-->
-<link href="/img/kiwenlau.ico" rel="icon">
+    <!--网站头像-->
+    <link href="/img/kiwenlau.ico" rel="icon">
 
-<!-- 莲子数据 -->
-<script type="text/javascript">
-var _laq = _laq || [];
-_laq.push(['_setApp', 'Y0QqZ7g5Lt8pdqPesfx5']); /* LOTUSEED_APPEY 必填 */
-_laq.push(['_trackClick', true]); /*设置追踪页面点击事件（如果没有此项，该功能不开启） */
-_laq.push(['_trackError', true]); /* 设置追踪页面js异常（如果没有此项，该功能不开启） */
-</script>
-<script type="text/javascript" src="https://js.lotuseed.com/lsd.js"></script>
+    <!-- 莲子数据 -->
+    <script type="text/javascript">
+        var _laq = _laq || [];
+        _laq.push(['_setApp', 'Y0QqZ7g5Lt8pdqPesfx5']); /* LOTUSEED_APPEY 必填 */
+        _laq.push(['_trackClick', true]); /*设置追踪页面点击事件（如果没有此项，该功能不开启） */
+        _laq.push(['_trackError', true]); /* 设置追踪页面js异常（如果没有此项，该功能不开启） */
+    </script>
+    <script type="text/javascript" src="https://js.lotuseed.com/lsd.js"></script>
 
-<!--百度统计-->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?1bae16337d1f07bbba3e478b5b11bcda";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+    <!--百度统计-->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?1bae16337d1f07bbba3e478b5b11bcda";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
-<!--Fundebug-->
-<script type="text/javascript" src="https://js.fundebug.cn/fundebug.1.2.1.min.js" apikey="3cf3b58896cde530559232dac62ede3898cd015f6d8ac0f3eb8f792346c27983" silentVideo=false></script>
+    <!--Fundebug-->
+    <script type="text/javascript" src="https://js.fundebug.cn/fundebug.1.2.1.min.js" apikey="3cf3b58896cde530559232dac62ede3898cd015f6d8ac0f3eb8f792346c27983"
+        silentVideo=false></script>
 
 
-<!--百度: 验证网站所有权-->
-<meta name="baidu-site-verification" content="GlKB0OINL3" />
+    <!--百度: 验证网站所有权-->
+    <meta name="baidu-site-verification" content="GlKB0OINL3" />
 
-<!-- 百度联盟：验证网站所有权 -->
-<meta name="baidu_union_verify" content="ca28b0dd4f69c719bcd080f545589479">
+    <!-- 百度联盟：验证网站所有权 -->
+    <meta name="baidu_union_verify" content="ca28b0dd4f69c719bcd080f545589479">
 
-<!--谷歌: 验证网站所有权-->
-<meta name="google-site-verification" content="93kJToORTppgNykiQMWMYtgL0KSRb77_64DDP1OiaBY" />
+    <!--谷歌: 验证网站所有权-->
+    <meta name="google-site-verification" content="93kJToORTppgNykiQMWMYtgL0KSRb77_64DDP1OiaBY" />
 
-<!-- 七牛jQuery -->
-<script src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
+    <!-- 七牛jQuery -->
+    <script src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
 
-<!-- 七牛jQuery请求失败时，则请求本网站挂载的jQuery -->
-<script>
-window.jQuery || document.write("<script src=/js/jquery.min.js><\/script>")
-</script>
+    <!-- 七牛jQuery请求失败时，则请求本网站挂载的jQuery -->
+    <script>
+        window.jQuery || document.write("<script src=/js/jquery.min.js><\/script>")
+    </script>
 
-<!-- 加载gitment的css和js文件 -->
-<link rel="stylesheet" href="/css/gitment.css"> 
-<script src="/js/gitment.js"></script> 
-<script>
-window.Gitment || document.write("<script src=/js/gitment.js><\/script>")
-</script>
+    <!-- 加载gitment的css和js文件 -->
+    <link rel="stylesheet" href="/css/gitment.css">
+    <script src="/js/gitment.js"></script>
+    <script>
+        window.Gitment || document.write("<script src=/js/gitment.js><\/script>")
+    </script>
 
-<!-- 使用LeanCloud统计博客访问量 -->
-<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
-<script>
-window.AV || document.write("<script src=/js/av-min-1.2.1.js><\/script>")
-</script>
-<script>AV.init({ appId: 'pE9JlTqv5M0E94BjVxGYbv0d-gzGzoHsz', appKey: 'JE1v94gjDljrmwjWJC13452L' });</script>
+    <!-- 使用LeanCloud统计博客访问量 -->
+    <script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+    <script>
+        window.AV || document.write("<script src=/js/av-min-1.2.1.js><\/script>")
+    </script>
+    <script>AV.init({ appId: 'pE9JlTqv5M0E94BjVxGYbv0d-gzGzoHsz', appKey: 'JE1v94gjDljrmwjWJC13452L' });</script>
 
-<!-- 使用不蒜子统计博客访问量 -->
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<script src="/js/count.js"></script> 
+    <script src="/js/count.js"></script>
 
 </head>
