@@ -68,6 +68,22 @@ feed:
 sitemap:
 baidusitemap:
 
+# 压缩HTML/CSS/JavaScript文件
+html_minifier:
+    enable: true
+
+css_minifier:
+    enable: true
+
+js_minifier:
+    enable: true
+
+js_concator:
+    enable: false
+
+image_minifier:
+    enable: false
+
 # neat_enable: true
 
 # 部署到Coding Pages

@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {
     "hexo": "^3.2.2",
+    "hexo-all-minifier": "^0.5.2",
     "hexo-asset-image": "^0.0.2",
     "hexo-deployer-git": "0.0.4",
     "hexo-generator-archive": "^0.1.4",
