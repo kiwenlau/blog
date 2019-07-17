@@ -1,6 +1,6 @@
 ---
 
-title: 万万没想到！ES6的const并非一定为常量
+title: ES6的const并非一定为常量
 
 date: 2018-07-25 10:00:00
 
