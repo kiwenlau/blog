@@ -100,5 +100,5 @@ image_minifier:
 # 部署到腾讯云
 deploy:
   type: git
-  repo: root@123.206.25.14:blog.git
+  repo: root@49.234.107.171:blog.git
 
