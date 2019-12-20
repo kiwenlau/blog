@@ -3,9 +3,9 @@ title: Fundebug前端异常监控插件更新至 1.9.0，支持监控 HTTP 慢�
 
 date: 2019-07-05 10:00:00
 
-tags: [JavaScript, 产品更新, fundebug-javascript]
+tags: [JavaScript, fundebug-javascript]
 
-keywords: JavaScript, 产品更新, fundebug-javascript, 异常监控, 监控慢请求
+keywords: JavaScript, fundebug-javascript, 异常监控, 监控慢请求
 
 description: Fundebug前端异常监控插件更新至 1.9.0，支持监控 HTTP 慢请求
 ---

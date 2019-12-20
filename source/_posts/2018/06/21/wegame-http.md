@@ -4,7 +4,7 @@ title: Fundebug支持监控微信小游戏HTTP请求错误
 
 date: 2018-06-21 10:00:00
 
-tags: [小游戏, Fundebug]
+tags: [Fundebug]
 
 keywords: Fundebug, 微信小游戏, 小游戏, 错误监控
 

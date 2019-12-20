@@ -4,7 +4,7 @@ title: Fundebug上线支付宝小程序错误监控服务
 
 date: 2018-07-30 10:00:00
 
-tags: [Fundebug, 支付宝小程序]
+tags: [Fundebug, 小程序]
 
 keywords: Fundebug, 支付宝小程序
 

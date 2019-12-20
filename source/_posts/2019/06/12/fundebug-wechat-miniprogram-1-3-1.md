@@ -3,7 +3,7 @@ title: Fundebug 微信小程序 BUG 监控插件更新至 1.3.1，新增 httpTim
 
 date: 2019-06-12 10:00:00
 
-tags: [微信小程序, Fundebug]
+tags: [小程序, Fundebug]
 
 keywords: Fundebug, 微信小程序, BUG监控, 性能监控, HTTP慢请求
 

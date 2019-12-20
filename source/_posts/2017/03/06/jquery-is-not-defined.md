@@ -3,7 +3,7 @@ title: 聊聊"jQuery is not defined"
 
 date: 2017-03-06 10:00:00
 
-tags: [技术, 原创]
+tags: [原创]
 
 ---
 

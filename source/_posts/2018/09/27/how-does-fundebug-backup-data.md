@@ -4,7 +4,7 @@ title: Fundebug是这样备份数据的
 
 date: 2018-09-27 10:00:00
 
-tags: [原创,技术]
+tags: [原创]
 
 keywords: 数据, 备份, 对象存储, 阿里云
 

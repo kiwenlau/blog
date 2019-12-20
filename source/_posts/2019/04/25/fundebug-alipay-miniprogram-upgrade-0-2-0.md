@@ -3,7 +3,7 @@ title: Fundebug支付宝小程序BUG监控插件更新至0.2.0，新增test()方
 
 date: 2019-04-25 10:00:00
 
-tags: [支付宝小程序, 产品]
+tags: [小程序]
 
 keywords: 支付宝小程序, 小程序, 支付宝, BUG监控
 

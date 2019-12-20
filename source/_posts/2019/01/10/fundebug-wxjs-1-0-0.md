@@ -4,8 +4,6 @@ title: Fundebug微信小程序错误监控插件更新至1.0.0，支持配置回
 
 date: 2019-01-10 10:00:00
 
-tags: [产品, 微信小程序]
-
 keywords: 微信小程序
 
 description: Fundebug微信小程序错误监控插件更新至1.0.0，支持配置回调函数

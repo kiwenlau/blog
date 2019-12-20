@@ -3,7 +3,7 @@ title: Fundebug前端JavaScript插件更新至1.8.2，修复2个小BUG
 
 date: 2019-06-18 10:00:00
 
-tags: [JavaScript, Fundebug, 产品更新]
+tags: [JavaScript, Fundebug]
 
 keywords: JavaScript, Fundebug, 异常监控, BUG监控, 崩溃监控, 错误监控
 

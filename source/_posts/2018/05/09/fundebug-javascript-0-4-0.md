@@ -4,7 +4,7 @@ title: Fundebug：JavaScript插件支持错误采样
 
 date: 2018-05-09 10:00:00
 
-tags: [JavaScript, 产品更新]
+tags: [JavaScript]
 
 keywords: JavaScript, BUG监控, 采样
 

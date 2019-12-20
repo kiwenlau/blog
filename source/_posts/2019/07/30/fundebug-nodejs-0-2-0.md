@@ -3,7 +3,7 @@ title: Fundebug后端Node.js插件更新至0.2.0，支持监控Express慢请求
 
 date: 2019-07-30 10:00:00
 
-tags: [产品更新, Node.js, Express]
+tags: [Node.js, Express]
 
 keywords: Fundebug, Node.js, Express
 

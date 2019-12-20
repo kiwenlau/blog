@@ -4,7 +4,7 @@ title: Fundebug微信小程序插件更新至0.8.0
 
 date: 2018-08-23 10:00:00
 
-tags: [微信小程序, Fundebug]
+tags: [小程序, Fundebug]
 
 keywords: Fundebug, 微信小程序
 

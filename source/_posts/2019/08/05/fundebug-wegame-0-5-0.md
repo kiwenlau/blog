@@ -3,8 +3,6 @@ title: Fundebug 微信小游戏异常监控插件更新至 0.5.0，支持监控 
 
 date: 2019-08-05 10:00:00
 
-tags: [微信小游戏, 产品更新]
-
 keywords: 微信小游戏, BUG监控, 性能监控
 
 description: Fundebug 微信小游戏异常监控插件更新至 0.5.0，支持监控 HTTP 慢请求

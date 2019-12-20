@@ -3,7 +3,7 @@ title: Fundebug微信小程序插件更新至0.7.1
 
 date: 2018-08-13 09:00:00
 
-tags: [Fundebug,微信小程序]
+tags: [Fundebug]
 
 ---
 

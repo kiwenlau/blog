@@ -4,7 +4,7 @@ title: Fundebug上线微信小游戏错误监控！支持自动截屏！
 
 date: 2018-05-04 10:00:00
 
-tags: [小游戏, 原创]
+tags: [Fundebug]
 
 ---
 

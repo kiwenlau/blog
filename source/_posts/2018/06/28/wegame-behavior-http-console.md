@@ -4,7 +4,7 @@ title: Fundebug：微信小游戏支持监控用户行为
 
 date: 2018-06-28 10:00:00
 
-tags: [Fundebug, 小游戏]
+tags: [Fundebug]
 
 keywords: 微信小游戏, 错误监控, Fundebug
 

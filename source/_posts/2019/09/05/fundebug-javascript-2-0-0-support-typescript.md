@@ -3,7 +3,7 @@ title: Fundebug前端异常监控插件更新至2.0.0，全面支持TypeScript
 
 date: 2019-09-05 10:00:00
 
-tags: [产品更新, 前端监控, JavaScript, TypeScript]
+tags: [前端监控, JavaScript, TypeScript]
 
 keywords: fundebug, typescript, 前端监控, 异常监控
 

@@ -3,7 +3,7 @@ title: Fundebug微信小程序BUG监控服务支持Source Map
 
 date: 2019-08-26 10:00:00
 
-tags: [产品更新, 微信小程序, Source Map]
+tags: [小程序, Source Map]
 
 keywords: JavaScript, ES6, 解构赋值
 
