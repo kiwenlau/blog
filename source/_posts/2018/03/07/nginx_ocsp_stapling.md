@@ -4,7 +4,7 @@ title: Nginx之OCSP stapling配置
 
 date: 2018-03-07 10:00:00
 
-tags: [Nginx, 原创]
+tags: [Nginx]
 
 ---
 

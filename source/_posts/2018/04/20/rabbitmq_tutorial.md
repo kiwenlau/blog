@@ -4,7 +4,7 @@ title: RabbitMQ入门教程
 
 date: 2018-04-20 10:00:00
 
-tags: [RabbitQ, 原创]
+tags: [RabbitQ]
 
 ---
 

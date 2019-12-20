@@ -3,7 +3,7 @@ title: 玩转SSH端口转发
 
 date: 2017-04-24 11:00:00
 
-tags: [Linux, 原创]
+tags: [Linux]
 
 ---
 

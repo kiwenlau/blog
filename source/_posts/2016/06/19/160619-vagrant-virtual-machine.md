@@ -2,7 +2,7 @@ title: 使用Vagrant快速创建虚拟机
 
 date: 2016-06-19 10:00
 
-tags: [Vagrant,原创]
+tags: [Vagrant]
 
 ---
 

@@ -4,7 +4,7 @@ title: Mocha浏览器测试入门教程
 
 date: 2018-05-11 10:00:00
 
-tags: [JavaScript, 原创]
+tags: [JavaScript]
 
 ---
 

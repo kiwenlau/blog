@@ -2,7 +2,7 @@ title: 基于Docker搭建单机版Kuberntes
 
 date: 2015-11-28 09:00:00
 
-tags: [Docker, Kubernetes,原创]
+tags: [Docker, Kubernetes]
 
 ---
 

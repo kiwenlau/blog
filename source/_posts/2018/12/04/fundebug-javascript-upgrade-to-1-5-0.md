@@ -4,7 +4,7 @@ title: Fundebug前端JavaScript插件更新至1.5.0，报错附带页面性能�
 
 date: 2018-12-04 10:00:00
 
-tags: [产品]
+tags: [Fundebug]
 
 keywords: Fundebug, 前端, JavaScrip, BUG监控 
 

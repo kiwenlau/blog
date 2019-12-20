@@ -4,7 +4,7 @@ title: 详解JavaScript之神奇的Object.defineProperty
 
 date: 2018-07-05 10:00:00
 
-tags: [JavaScript, 原创]
+tags: [JavaScript]
 
 keywords: JavaScript, defineProperty
 

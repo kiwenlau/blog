@@ -4,7 +4,7 @@ title: Fundebug发布Vue插件，简化BUG监控接入代码
 
 date: 2019-01-17 10:00:00
 
-tags: [产品, Vue]
+tags: [Fundebug, Vue]
 
 keywords: Vue, Javascript, fundebug-vue
 

@@ -4,7 +4,7 @@ title: MongoDB复合索引详解
 
 date: 2018-03-15 10:00:00
 
-tags: [MongoDB, 原创]
+tags: [MongoDB]
 
 ---
 

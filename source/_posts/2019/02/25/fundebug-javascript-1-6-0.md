@@ -3,7 +3,7 @@ title: Fundebug前端JavaScript插件更新至1.6.0，新增test()方法用于�
 
 date: 2019-02-25 10:00:00
 
-tags: [产品, JavaScript]
+tags: [Fundebug, JavaScript]
 
 keywords: VS Code
 

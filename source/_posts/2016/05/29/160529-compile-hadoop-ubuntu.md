@@ -2,7 +2,7 @@ title: 64位Ubuntu中编译Hadoop的步骤
 
 date: 2016-05-29 09:00
 
-tags: [Hadoop,原创]
+tags: [Hadoop]
 
 ---
 

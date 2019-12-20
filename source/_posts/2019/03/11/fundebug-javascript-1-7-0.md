@@ -3,7 +3,7 @@ title: Fundebug 前端 JavaScript 插件更新至 1.7.1，拆分录屏代码，�
 
 date: 2019-03-11 10:00:00
 
-tags: [产品, JavaScript]
+tags: [Fundebug, JavaScript]
 
 keywords: JavaScript, Script error., 录屏
 

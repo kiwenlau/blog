@@ -3,7 +3,7 @@ title: 什么是Docker Volume?
 
 date: 2017-06-07 10:00:00
 
-tags: [Docker, 原创]
+tags: [Docker]
 
 ---
 

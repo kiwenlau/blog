@@ -4,7 +4,7 @@ title: Git如何回滚代码？
 
 date: 2018-01-24 10:00:00
 
-tags: [原创]
+tags: [Git]
 
 ---
 

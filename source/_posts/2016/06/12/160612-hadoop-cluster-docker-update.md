@@ -2,7 +2,7 @@ title: 基于Docker搭建Hadoop集群之升级版
 
 date: 2016-06-12 10:00
 
-tags: [Docker, Hadoop,原创]
+tags: [Docker, Hadoop]
 
 ---
 

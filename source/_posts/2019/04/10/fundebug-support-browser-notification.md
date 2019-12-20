@@ -3,7 +3,7 @@ title: Fundebug支持浏览器报警
 
 date: 2019-04-10 10:00:00
 
-tags: [产品, Fundebug]
+tags: [Fundebug]
 
 keywords: Fundebug, BUG监控, 浏览器报警, JS监控
 

@@ -3,7 +3,7 @@ title: Fundebug计费标准解释：事件数是如何定义的？
 
 date: 2019-02-28 10:00:00
 
-tags: [产品]
+tags: [Fundebug]
 
 keywords: Fundebug, 收费
 

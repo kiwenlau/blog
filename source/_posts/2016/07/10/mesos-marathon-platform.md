@@ -2,7 +2,7 @@ title: 基于Docker搭建多节点Mesos/Marathon
 
 date: 2016-07-10 10:00
 
-tags: [Docker, Mesos, Marathon,原创]
+tags: [Docker, Mesos, Marathon]
 
 ---
 

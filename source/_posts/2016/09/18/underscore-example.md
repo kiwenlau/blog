@@ -2,7 +2,7 @@ title: Underscore实例教程
 
 date: 2016-09-18 10:00
 
-tags: [Node.js,JavaScript,原创]
+tags: [Node.js,JavaScript]
 
 ---
 

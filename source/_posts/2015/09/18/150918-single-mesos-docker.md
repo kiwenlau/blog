@@ -2,7 +2,7 @@ title: 基于Docker搭建单机版Mesos/Marathon
 
 date: 2015-09-18 12:00:00
 
-tags: [Docker,Mesos,Marathon,原创]
+tags: [Docker,Mesos,Marathon]
 
 ---
 

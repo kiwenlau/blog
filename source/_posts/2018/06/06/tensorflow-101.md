@@ -4,7 +4,7 @@ title: TensorFlow入门教程
 
 date: 2018-06-06 10:00:00
 
-tags: [TensorFlow, 原创, 深度学习]
+tags: [TensorFlow, 深度学习]
 
 ---
 

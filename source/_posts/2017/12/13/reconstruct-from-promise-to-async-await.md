@@ -4,7 +4,7 @@ title: 重构：从Promise到Async/Await
 
 date: 2017-12-13 10:00:00
 
-tags: [JavaScript, Node.js, 原创]
+tags: [JavaScript, Node.js]
 
 ---
 

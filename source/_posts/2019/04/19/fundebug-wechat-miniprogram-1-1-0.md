@@ -3,7 +3,7 @@ title: Fundebug微信小程序BUG监控插件更新至1.1.0，新增test()与not
 
 date: 2019-04-19 10:00:00
 
-tags: [产品, 小程序]
+tags: [Fundebug, 小程序]
 
 keywords: 小程序, 小程序错误监控, 小程序异常监控, 小程序BUG监控
 

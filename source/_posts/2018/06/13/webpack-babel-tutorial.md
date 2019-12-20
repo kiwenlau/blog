@@ -4,7 +4,7 @@ title: webpack运行Babel教程
 
 date: 2018-06-13 10:00:00
 
-tags: [JavaScript, 原创]
+tags: [JavaScript]
 
 ---
 

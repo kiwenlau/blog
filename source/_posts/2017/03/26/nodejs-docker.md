@@ -4,7 +4,7 @@ title: 当Node.js遇见Docker
 
 date: 2017-03-26 21:00:00
 
-tags: [Node.js, Docker, 原创]
+tags: [Node.js, Docker]
 
 ---
 

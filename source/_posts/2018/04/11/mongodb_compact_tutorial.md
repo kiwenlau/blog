@@ -4,7 +4,7 @@ title: MongoDB之compact操作详解
 
 date: 2018-04-11 10:00:00
 
-tags: [MongoDB, 原创]
+tags: [MongoDB]
 
 ---
 

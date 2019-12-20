@@ -4,7 +4,7 @@ title: 如何清理Docker占用的磁盘空间?
 
 date: 2018-01-10 10:00:00
 
-tags: [Docker, 原创]
+tags: [Docker]
 
 ---
 

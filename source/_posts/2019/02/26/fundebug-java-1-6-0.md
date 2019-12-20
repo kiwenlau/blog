@@ -3,7 +3,7 @@ title: Fundebug 后端 Java 异常监控插件更新至 0.3.1，修复 Maven 下
 
 date: 2019-02-26 10:00:00
 
-tags: [产品]
+tags: [Fundebug]
 
 keywords: Fundenbug, Java
 
