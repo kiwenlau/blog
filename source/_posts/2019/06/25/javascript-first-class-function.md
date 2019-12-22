@@ -14,10 +14,13 @@ description: JavaScript深入浅出第2课：函数是一等公民是什么意�
 
 <!-- more -->
 
-**《JavaScript 深入浅出》系列**：
+**《[JavaScript深入浅出](https://blog.fundebug.com/tags/JavaScript%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA/)》系列**：
 
--   [JavaScript 深入浅出第 1 课：箭头函数中的 this 究竟是什么鬼？](https://blog.fundebug.com/2019/06/18/arrow-function-this/)
--   [JavaScript 深入浅出第 2 课：函数是一等公民是什么意思呢？](https://blog.fundebug.com/2019/06/25/javascript-first-class-function/)
+- [JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？](https://kiwenlau.com/2019/06/18/arrow-function-this/)
+- [JavaScript深入浅出第2课：函数是一等公民是什么意思呢？](https://kiwenlau.com/2019/06/25/javascript-first-class-function/)
+- [JavaScript深入浅出第3课：什么是垃圾回收算法？](https://kiwenlau.com/2019/07/03/javascript-garbage-collection/)
+- [JavaScript深入浅出第4课：V8是如何工作的？](https://kiwenlau.com/2019/07/16/how-does-v8-work/)
+- [JavaScript深入浅出第5课：Chrome是如何成功的？](https://kiwenlau.com/2019/08/08/how-does-chrome-succeed/)
 
 看到一篇讲 JavaScript 历史的[文章](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)里面提到：**JavaScript 借鉴 Scheme 语言，将函数提升到"一等公民"（first class citizen）的地位**。
 

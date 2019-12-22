@@ -15,10 +15,12 @@ description: JavaScript深入浅出第4课：V8引擎是如何工作的？
 <!-- more -->
 
 **《[JavaScript深入浅出](https://blog.fundebug.com/tags/JavaScript%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA/)》系列**：
-- [JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？](https://blog.fundebug.com/2019/06/18/arrow-function-this/)
-- [JavaScript深入浅出第2课：函数是一等公民是什么意思呢？](https://blog.fundebug.com/2019/06/25/javascript-first-class-function/)
-- [JavaScript深入浅出第3课：什么是垃圾回收算法？](https://blog.fundebug.com/2019/07/03/javascript-garbage-collection/)
-- [JavaScript深入浅出第4课：V8是如何工作的？](https://blog.fundebug.com/2019/07/16/how-does-v8-work/)
+
+- [JavaScript深入浅出第1课：箭头函数中的this究竟是什么鬼？](https://kiwenlau.com/2019/06/18/arrow-function-this/)
+- [JavaScript深入浅出第2课：函数是一等公民是什么意思呢？](https://kiwenlau.com/2019/06/25/javascript-first-class-function/)
+- [JavaScript深入浅出第3课：什么是垃圾回收算法？](https://kiwenlau.com/2019/07/03/javascript-garbage-collection/)
+- [JavaScript深入浅出第4课：V8是如何工作的？](https://kiwenlau.com/2019/07/16/how-does-v8-work/)
+- [JavaScript深入浅出第5课：Chrome是如何成功的？](https://kiwenlau.com/2019/08/08/how-does-chrome-succeed/)
 
 最近，JavaScript生态系统又多了2个非常硬核的项目。
 
