@@ -345,11 +345,7 @@ it("should return hello fundebug", function(done)
 
 本文所写的单元测试案例，都很简单。然而，在实际工作中，单元测试是一个很头痛的事情。修改了代码有时意味着必须修改单元测试，写了新的函数或者API就得写新的单元测试。如果较真起来，单元测试可以没完没了地写，但这是没有意义的。而根据二八原理，20%的测试可以解决80%的问题。剩下的20%问题，事实上我们是力不从心的。换句话说，想通过测试消除所有BUG，是不现实的。
 
-因此，对生产代码进行实时错误监测是非常有必要的，这也是我们[Fundebug](https://fundebug.com/)努力在做的事情:) 欢迎大家加入我们的**Node.js技术交流群**:
-
-<div style="text-align: center;">
-<img style="width:20%;" src="http://opu5mq5tf.bkt.clouddn.com/qq_nodejs.JPG" />
-</div>
+因此，对生产代码进行实时错误监测是非常有必要的，这也是我们[Fundebug](https://fundebug.com/)努力在做的事情:)
 
 ### 参考链接
 
