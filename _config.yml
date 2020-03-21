@@ -1,6 +1,6 @@
 # Hexo配置文件
 
-title: KiwenLau
+title: 寒雁
 description:
 author: KiwenLau
 language: zh-CN
@@ -82,19 +82,6 @@ js_concator:
 
 image_minifier:
     enable: false
-
-# neat_enable: true
-
-# 部署到Coding Pages
-# deploy:
-#   type: git
-#   repo: https://git.coding.net/kiwenlau/kiwenlau.git
-
-# 部署到GitHub Pages
-# deploy:
-#   type: git
-#   repo: git@github.com:kiwenlau/kiwenlau.github.io.git
-#   branch: master
 
 # 部署到腾讯云
 deploy:
